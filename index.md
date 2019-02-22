@@ -5,5 +5,5 @@
 layout: home
 ---
 
-h1
+Welcome to the documentation site!
 
