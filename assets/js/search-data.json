@@ -1,5 +1,6 @@
 ---
 ---
+
 {
   {% for page in site.html_pages %}{% if page.search_exclude != true %}"{{ forloop.index0 }}": {
     "id": "{{ forloop.index0 }}",
