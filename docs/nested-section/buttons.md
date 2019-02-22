@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Buttons
+layout: default
 parent: Nested Section
 nav_order: 2
 ---

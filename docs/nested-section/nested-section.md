@@ -1,9 +1,9 @@
 ---
-layout: default
 title: Nested Section
+permalink: "/nested-section"
+layout: default
 nav_order: 3
 has_children: true
-permalink: /nested-section
 ---
 
 # UI Components

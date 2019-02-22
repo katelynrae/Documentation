@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Stuff
+layout: default
 parent: Nested Section
 nav_order: 2
 ---
