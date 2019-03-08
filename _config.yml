@@ -27,3 +27,4 @@ search_enabled: true
 aux_links:
   Network Canvas Home:
   - "//networkcanvas.com"
+permalink: pretty
