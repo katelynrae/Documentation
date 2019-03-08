@@ -20,6 +20,9 @@ markdown: kramdown
 theme: just-the-docs
 plugins:
 - jekyll-feed
+defaults:
+  values:
+    pdf: true
 search_enabled: true
 aux_links:
   Network Canvas Home:
