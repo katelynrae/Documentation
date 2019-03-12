@@ -1,4 +1,36 @@
-//Testing...
-//body {
-////  background-color: red;
-////}
+// TODO: override just-the-docss sass variables more elegantly, rather than styling the elements themselves
+
+$link-color: #00caa3;
+$text-grey-dk: #5c5962;
+$body-heading-color: #2f2757;
+
+
+a {
+  color: $link-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $body-heading-color;
+}
+
+.page-content ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.page-content ol li {
+  counter-increment: my-awesome-counter;
+}
+.page-content ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  font-weight: bold;
+  color: $link-color
+}
+
+.toc a {
+  color: $text-grey-dk;
+}
