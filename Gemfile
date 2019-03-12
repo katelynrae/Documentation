@@ -17,10 +17,11 @@ gem "minima", "~> 2.0"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
+gem "pdfkit"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "prawn"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,6 +33,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Basic documentation theme from Jekyll
 gem "just-the-docs"
 gem 'jekyll-watch'
-
-# example how to do a local plugin path
-#gem "jekyll-pdf", "~> 0.1", :path => './_plugins/jekyll-pdf'
