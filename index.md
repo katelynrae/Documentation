@@ -5,7 +5,8 @@ layout: home
 Welcome to the documentation site!
 
 
-# Here are examples of markdown styles!
+# Here are examples of markdown styles! I will disappear on print.
+{: .print-hidden}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -123,11 +124,7 @@ end
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](/assets/img/test-image.jpg)
 
 
 ### Definition lists can be used with HTML syntax.

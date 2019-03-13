@@ -1,0 +1,10 @@
+@media print {
+  .print-hidden {
+    display: none;
+  }
+
+  // delete me:
+  body {
+    background-color: red;
+  }
+}
