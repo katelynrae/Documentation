@@ -2,9 +2,17 @@
   .print-hidden {
     display: none;
   }
+  .print-only {
+    display: block;
+  }
+
+  // don't display the menu etc. on print
+  .side-bar {
+    display: none;
+  }
 
   // delete me:
   body {
-    background-color: red;
+    //background-color: red;
   }
 }
