@@ -6,8 +6,8 @@
     display: block;
   }
 
-  // don't display the menu etc. on print
-  .side-bar {
+  // don't display the menu and nav on print
+  .side-bar, .breadcrumb-nav-list-item {
     display: none;
   }
 
