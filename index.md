@@ -122,10 +122,6 @@ end
 - [ ] Hello, this is another TODO item
 - [x] Goodbye, this item is done
 
-### Small image
-
-![](/assets/img/test-image.jpg)
-
 
 ### Definition lists can be used with HTML syntax.
 
