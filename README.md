@@ -25,3 +25,7 @@ Assumes http://documentation.networkcanvas.com/ as site url (set in `_config-pro
 `jekyll build JEKYLL_ENV=production --config _config-production.yml`
 
 (note: In future can make a small Rakefile that simplifies these commands or add them to deploy.sh ? Also - might be advisable to delete the entire _site folder before any production build, as it will regenerate.)
+
+## Dependencies
+
+We use PDFKit for generating PDFS, which relies on  [wkhtmltopdf](https://wkhtmltopdf.org/) as a dependency. Download the latest version from [here](https://wkhtmltopdf.org/downloads.html).
