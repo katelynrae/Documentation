@@ -1,0 +1,108 @@
+.custom-main-nav, .custom-site-title {
+  @include mq(desktop) {
+    padding: 10px 40px;
+  }
+  padding: 30px;
+}
+
+li.navigation-list-item a {
+  color: $text-color-main;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.navigation-list-child-list .navigation-list-link {
+  color: $text-color-main;
+}
+
+.navigation-list-link.active {
+  color: $color-f;
+}
+
+.navigation-list-child-list .navigation-list-item::before {
+  content: "";
+}
+
+.side-bar {
+  padding-top: 0;
+}
+
+// NC SVG Logo
+.header__logo img {
+  width: 370px;
+}
+
+.breadcrumb-nav-list-item {
+  font-size: 17px !important;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.breadcrumb-nav-list-item a {
+  color: $color-f;
+}
+
+.search {
+  border-radius: 20px;
+  border: 2px $color-f solid;
+  padding: 0;
+}
+
+.search-input {
+  height: 50px;
+  font-size: 12.5px !important;
+  @include mq(ipad) {
+    font-size: 14.5px !important;
+  }
+  @include mq(desktop) {
+    font-size: 17.5px !important;
+  }
+}
+
+.search-input-wrap, .search-input {
+  border-radius: 20px;
+}
+
+.search-input-wrap {
+  padding-left: 10px;
+  @include mq(1170px) {
+    top: -7px;
+    color:red !important;
+  }
+}
+
+.search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  white-space:pre-line;
+  position:relative;
+  top: 0px;
+  @include mq(1170px) {
+    top: -7px;
+    color:red !important;
+  }
+
+}
+.search-input::-moz-placeholder { /* Firefox 19+ */
+  white-space:pre-line;
+  position:relative;
+  //top: -7px;
+  @include mq(1150px) {
+    top: 0;
+  }
+
+}
+.search-input:-ms-input-placeholder { /* IE 10+ */
+  white-space:pre-line;
+  position:relative;
+  //top: -7px;
+  @include mq(1150px) {
+    top: 0;
+  }
+}
+.search-input:-moz-placeholder { /* Firefox 18- */
+  white-space:pre-line;
+  position:relative;
+  //top: -7px;
+  @include mq(1150px) {
+    top: 0;
+  }
+}

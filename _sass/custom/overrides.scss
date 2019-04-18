@@ -1,0 +1,13 @@
+// Overriding what's in the just-the-docs theme styles
+
+a {
+  background-image: none !important;
+}
+
+.page-header .main-content {
+  border-bottom: none;
+}
+
+.main-content {
+  padding-left: 40px;
+}

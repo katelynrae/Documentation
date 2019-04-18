@@ -1,0 +1,15 @@
+.tip-box {
+  padding: 15px 30px;
+  background-color: $color-d;
+  border-radius: 20px;
+  color: white;
+  margin: 15px 0;
+}
+
+.tip-info {
+  border-left: 10px $color-f solid;
+}
+
+.tip-caution {
+  border-left: 10px $color-c solid;
+}
