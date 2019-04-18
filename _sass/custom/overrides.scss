@@ -11,3 +11,11 @@ a {
 .main-content {
   padding-left: 40px;
 }
+
+@include mq(desktop-narrow, 'max-width') {
+  .header__container {
+    justify-content: inherit;
+    flex-direction: row-reverse;
+    height: 110px;
+  }
+}
