@@ -1,1 +1,1 @@
-<div style="border: 1px blue solid"><p>{{include.content}}</p></div>
+<div class="tip-box tip-caution"><p>{{include.content}}</p></div>
