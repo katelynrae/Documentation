@@ -6,36 +6,68 @@
 
 <div class="page-wrap">
     <div class="side-bar">
-        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>
+        <!--<a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>-->
+        <a href="{{ site.url }}{{ site.baseurl }}" class="custom-site-title fs-6 lh-tight">{% include nc-image src="assets/img/logo.svg" alt="Network Canvas Beta" %}</a>
         <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
-        <div class="navigation main-nav js-main-nav">
+        <!--<div class="navigation main-nav js-main-nav">-->
+        <div class="custom-main-nav js-main-nav">
             {% include nav.html %}
         </div>
-        <footer role="contentinfo" class="site-footer">
-            <p class="text-small text-grey-dk-000 mb-0">Network Canvas is a project of ... credits, etc.</p>
-        </footer>
+        <!--<footer role="contentinfo" class="site-footer">-->
+            <!--<p class="text-small text-grey-dk-000 mb-0">Network Canvas is a project of ... credits, etc.</p>-->
+        <!--</footer>-->
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
-        <div class="page-header">
-            <div class="main-content">
-                <!--{% if site.search_enabled != nil %}-->
-                <!--<div class="search js-search">-->
-                    <!--<div class="search-input-wrap">-->
-                        <!--<input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">-->
-                        <!--<svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>-->
-                    <!--</div>-->
-                    <!--<div class="js-search-results search-results-wrap"></div>-->
-                <!--</div>-->
-                <!--{% endif %}-->
-                {% if site.aux_links != nil %}
-                <ul class="list-style-none text-small mt-md-1 mb-md-1 pb-4 pb-md-0 js-aux-nav aux-nav">
-                    {% for link in site.aux_links %}
-                    <li class="d-inline-block my-0{% unless forloop.last %} mr-2{% endunless %}"><a href="{{ link.last }}">{{ link.first }}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+        <header class="header">
+            <div class="header__container">
+
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="assets/img/logo.svg" alt="Network Canvas">
+                    </a>
+                </div>
+
+                <div class="header__menu-trigger" aria-label="Opens nav menu" aria-expanded="false" aria-controls="nav" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="header__nav">
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Feedback</a></li>
+                            <li><a href="">Project Team</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
             </div>
-        </div>
+        </header>
+
+        <!--<div class="page-header">-->
+            <!--<div class="main-content">-->
+                <!--&lt;!&ndash;{% if site.search_enabled != nil %}&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="search js-search">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="search-input-wrap">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="js-search-results search-results-wrap"></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;{% endif %}&ndash;&gt;-->
+                <!--{% if site.aux_links != nil %}-->
+                <!--<ul class="list-style-none text-small mt-md-1 mb-md-1 pb-4 pb-md-0 js-aux-nav aux-nav">-->
+                    <!--{% for link in site.aux_links %}-->
+                    <!--<li class="d-inline-block my-0{% unless forloop.last %} mr-2{% endunless %}"><a href="{{ link.last }}">{{ link.first }}</a></li>-->
+                    <!--{% endfor %}-->
+                <!--</ul>-->
+                <!--{% endif %}-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="main-content">
             {% unless page.url == "/" %}
             {% if page.parent %}
@@ -64,7 +96,7 @@
                 {% endif %}
                 {% if page.has_children == true and page.has_toc != false %}
                 <hr>
-                <h2 class="text-delta">Table of contents</h2>
+                <h3 class="toc">Table of contents</h3>
                 {% assign children_list = site.pages | sort:"nav_order" %}
                 <ol type="1" class="toc">
                     {% for child in children_list %}
