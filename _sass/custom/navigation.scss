@@ -1,6 +1,11 @@
 .side-bar {
   top: 0;
   padding-top: 0;
+  background: url('../img/sidebar-bg.svg');
+  background-repeat: top no-repeat;
+  background-size: 50% 100%;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 .custom-main-nav {
