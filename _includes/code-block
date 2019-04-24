@@ -1,0 +1,4 @@
+{:.code-block}
+```{{ include.language }}
+   {{ include.content }}
+```
