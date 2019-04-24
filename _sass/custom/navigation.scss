@@ -11,7 +11,8 @@
 }
 
 .custom-main-nav {
-  width: 95%;
+  //width: 95%;
+  //position: fixed;
   @include mq(large, 'min-width') {
     width: 70%;
   }

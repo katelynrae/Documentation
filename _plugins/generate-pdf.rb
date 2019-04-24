@@ -61,7 +61,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       # save_individual_pdf(item, content)
     end
     # save entire site file
-    save_pdf(File.read(all_docs), File.join("_site", "pdfs"), "NetworkCanvasDocumentation.pdf")
+    # save_pdf(File.read(all_docs), File.join("_site", "pdfs"), "NetworkCanvasDocumentation.pdf")
   end
   puts "Done."
 end
