@@ -30,3 +30,7 @@ $text-grey-dk: #5c5962;
 
 html, body { height: 100%; }
 
+.header__nav a.active {
+  color: $color-f;
+  border-bottom: 2px solid $color-f;
+}
