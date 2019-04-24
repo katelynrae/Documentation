@@ -25,6 +25,7 @@ a {
   padding-left: 40px;
   background-color: #fff;
   max-width: 100%;
+  min-height: 100%;
 }
 
 @include mq(desktop-narrow, 'max-width') {
