@@ -19,3 +19,7 @@ a {
     height: 110px;
   }
 }
+
+.search, .search-results-wrap, .search-results-wrap.active, .js-search-results {
+  display: block;
+}
