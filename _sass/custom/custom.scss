@@ -19,6 +19,7 @@
 // Custom
 @import 'print-only';
 @import 'navigation';
+@import 'footer';
 @import 'overrides';
 @import 'table-of-contents';
 @import 'templates';
@@ -26,4 +27,6 @@
 
 $link-color: #00caa3;
 $text-grey-dk: #5c5962;
+
+html, body { height: 100%; }
 
