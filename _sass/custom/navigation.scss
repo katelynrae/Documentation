@@ -6,6 +6,8 @@
   background-size: 100% 100%;
   background-position: center top;
   background-color: #f5f6fa;
+  flex-grow: 1;
+  border-right: none;
 }
 
 .custom-main-nav {
@@ -75,13 +77,12 @@
 .search-input {
   height: 50px;
   font-size: 12px !important;
-  //padding: 15px 0;
-  &.search-input-lg {
-    display: none;
-  }
-  &.search-input-sm {
-    display: block;
-  }
+  //&.search-input-lg {
+  //  display: none;
+  //}
+  //&.search-input-sm {
+  //  display: block;
+  //}
   @include mq(desktop-narrow, 'min-width') {
     font-size: 14px !important;
     //height: 80px;
