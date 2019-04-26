@@ -1,9 +1,25 @@
 .tip-box {
-  padding: 15px 30px;
+  padding: 15px;
   background-color: $color-d;
   border-radius: 20px;
   color: white;
   margin: 15px 0;
+  height: 100px;
+  display: table;
+}
+
+.tip-box .tip-img-wrapper {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.tip-box p {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 0 0 0 5px
 }
 
 .tip-info {
