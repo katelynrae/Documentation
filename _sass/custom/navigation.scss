@@ -3,17 +3,17 @@
   top: 0;
   padding-top: 0;
   background: url('../img/sidebar-bg.svg');
-  background-repeat: top no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center top;
   background-color: #f5f6fa;
   flex-grow: 1;
   border-right: none;
-  //align-items: flex-start;
   align-items: flex-end;
   min-width: 20rem;
   @media (min-width: 70rem) {
     width: 28rem;
+    //background-size: 100% 70%;
   }
 }
 
