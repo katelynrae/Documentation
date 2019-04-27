@@ -1,3 +1,4 @@
+
 .side-bar {
   top: 0;
   padding-top: 0;
@@ -8,27 +9,36 @@
   background-color: #f5f6fa;
   flex-grow: 1;
   border-right: none;
+  //align-items: flex-start;
+  align-items: flex-end;
+  min-width: 20rem;
+  @media (min-width: 70rem) {
+    width: 28rem;
+  }
 }
 
 .custom-main-nav {
-  //width: 95%;
-  //position: fixed;
-  @include mq(large, 'min-width') {
-    width: 70%;
+  @media (min-width: 70rem) {
+    width: 28rem;
   }
+  @media (min-width: 46.25rem) {
+    width: 20rem;
+  }
+  width: 100%;
 }
 
 .custom-site-title img {
-  width: 92%;
   float: right;
+  @include mq(large, 'min-width') {
+    padding-left: 2em;
+  }
 }
 
-.custom-main-nav,
-.custom-site-title {
-  @include mq(desktop) {
-    padding: 10px 40px;
+.custom-main-nav, .custom-site-title {
+  @media (min-width: 46.25rem) {
+    padding: 1.2rem;
   }
-  padding: 30px;
+  padding: 3rem;
 }
 
 .navigation-list-item a {
@@ -78,15 +88,8 @@
 .search-input {
   height: 50px;
   font-size: 12px !important;
-  //&.search-input-lg {
-  //  display: none;
-  //}
-  //&.search-input-sm {
-  //  display: block;
-  //}
   @include mq(desktop-narrow, 'min-width') {
     font-size: 14px !important;
-    //height: 80px;
   }
   @include mq(large, 'min-width') {
     font-size: 17.5px !important;
@@ -132,7 +135,6 @@
 .search-input::-moz-placeholder { /* Firefox 19+ */
   white-space:pre-line;
   position:relative;
-  //top: -7px;
   @include mq(1150px) {
     top: 0;
   }
@@ -141,7 +143,6 @@
 .search-input:-ms-input-placeholder { /* IE 10+ */
   white-space:pre-line;
   position:relative;
-  //top: -7px;
   @include mq(1150px) {
     top: 0;
   }
@@ -149,7 +150,6 @@
 .search-input:-moz-placeholder { /* Firefox 18- */
   white-space:pre-line;
   position:relative;
-  //top: -7px;
   @include mq(1150px) {
     top: 0;
   }
