@@ -7,8 +7,13 @@
   }
 
   // don't display the menu and nav on print
-  .side-bar, .breadcrumb-nav-list-item {
+  .side-bar, .breadcrumb-nav-list-item, footer, header {
     display: none;
   }
+
+  body {
+    color: black;
+  }
+
 
 }
