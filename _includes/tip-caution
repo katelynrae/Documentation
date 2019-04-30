@@ -2,5 +2,8 @@
     <div class="tip-img-wrapper">
         <img src="{{ "assets/img/tip-caution.svg" | absolute_url}}" alt="Caution">
     </div>
-    <p>{{include.content}}</p>
+    <div class="tip-content-wrapper">
+        <p class="tip-title">CAUTION:</p>
+        <p class="tip-content">{{include.content}}</p>
+    </div>
 </div>
