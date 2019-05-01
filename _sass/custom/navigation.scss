@@ -2,10 +2,10 @@
 .side-bar {
   top: 0;
   padding-top: 0;
-  background: url('../img/sidebar-bg.svg');
+  background: url('../img/sidebar-bg-cropped.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center top;
+  background-position: 25% 0;
+  background-size: cover;
   background-color: #f5f6fa;
   flex-grow: 1;
   border-right: none;
