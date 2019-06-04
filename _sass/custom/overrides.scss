@@ -1,5 +1,7 @@
 // Overriding what's in the just-the-docs theme styles
 
+$menu-max-width: 65rem; //52rem;
+
 html, body {
   height: 100%;
   margin: 0;
@@ -26,7 +28,7 @@ code, pre.highlight {
 }
 
 .header__menu-trigger, .has-open-nav .header__nav {
-  @media (max-width: 52rem) {
+  @media (max-width: $menu-max-width) {
     display: block;
   }
 }
@@ -44,7 +46,7 @@ code, pre.highlight {
 }
 
 .has-open-nav .header__menu-trigger {
-  @media (max-width: 52rem) {
+  @media (max-width: $menu-max-width) {
     display: block;
     position: fixed;
     right: 1rem;
@@ -53,13 +55,13 @@ code, pre.highlight {
 
 
 .header__nav {
-  @media (max-width: 52rem) {
+  @media (max-width: $menu-max-width) {
     display: none;
   }
 }
 
 .header__nav li {
-  @media (max-width: 52rem) {
+  @media (max-width: $menu-max-width) {
     display: block;
     text-align: left;
     margin-bottom: 16px;
@@ -70,7 +72,7 @@ code, pre.highlight {
 }
 
 .header__nav li:first-child, .header__nav li {
-  @media (max-width: 52rem) {
+  @media (max-width: $menu-max-width) {
     margin-left: 20px;
   }
 }
