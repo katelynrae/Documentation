@@ -1,4 +1,36 @@
 
+$nav-width: 350px;
+
+.side-bar {
+  @include mq(md) {
+    width: $nav-width;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
+.main-content {
+  @include mq(md) {
+    margin-left: $nav-width;
+  }
+
+  @include mq(lg) {
+    margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  }
+}
+
+.navigation,
+.site-title,
+.site-footer {
+  @include mq(lg) {
+    width: $nav-width + 32px;
+  }
+}
+
+
 // Utilities
 @import '../../assets/shared/shared-web-styles/fonts';
 @import '../../assets/shared/shared-web-styles/variables';
