@@ -5,7 +5,7 @@
 Assumes http://localhost:4000 (default Jekyll dev port), for the basis of absolute urls (for images and assets to be correctly references by PDF generation, set in `_config-development.yml`.
 
 For development with live regeneration:
-`jekyll serve --config _config-local.yml`
+`jekyll serve`
 
 For development build:
 `jekyll build --config _config-local.yml`
