@@ -33,3 +33,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Basic documentation theme from Jekyll
 gem "just-the-docs"
 gem 'jekyll-watch'
+
+# Allow nicer internal links
+gem 'jekyll-relative-links'
