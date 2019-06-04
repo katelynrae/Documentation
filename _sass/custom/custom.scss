@@ -38,3 +38,11 @@ html, body { height: 100%; }
   color: $color-f;
   border-bottom: 2px solid $color-f;
 }
+
+figcaption {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+}
