@@ -2,10 +2,10 @@
 layout: home
 ---
 
-Welcome to the documentation site!
+# Welcome to the documentation site!
 
+Here are examples of markdown styles! I will disappear on print.
 
-# Here are examples of markdown styles! I will disappear on print.
 {: .print-hidden}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

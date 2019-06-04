@@ -77,15 +77,14 @@ code, pre.highlight {
 
 .header, .main-content {
   @media (min-width: 46.25rem) {
-    margin-left: 20rem;
+    // margin-left: 20rem;
   }
   @media (min-width: 70rem) {
-    margin-left: 28rem;
+    // margin-left: 28rem;
   }
 }
 
 .main-content {
-  padding-left: 3em;
   background-color: #fff;
   max-width: 100%;
   min-height: 100%;

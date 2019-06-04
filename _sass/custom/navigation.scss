@@ -10,9 +10,8 @@
   flex-grow: 1;
   border-right: none;
   align-items: flex-end;
-  min-width: 20rem;
   @media (min-width: 70rem) {
-    width: 28rem;
+    // width: 28rem;
     //background-size: 100% 70%;
   }
 }
