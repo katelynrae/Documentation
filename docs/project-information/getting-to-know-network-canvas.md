@@ -6,12 +6,6 @@ nav_order: 1
 last_modified_at: 2019-03-08
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Overview
 
 This section explains the various buttons and features of Network Canvas, the interview application. To install Network Canvas, view the [Network Canvas Installation Guide](./installation-guide.md).  
