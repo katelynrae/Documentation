@@ -9,7 +9,7 @@
 .page-content ol li::before {
   content: counter(my-awesome-counter) ".";
   font-weight: bold;
-  color: $color-f
+  color: $color-primary
 }
 
 .toc a, .page-content .toc {

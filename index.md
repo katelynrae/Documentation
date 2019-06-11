@@ -1,8 +1,8 @@
 ---
-layout: home
+layout: default
+nav_exclude: true
+title: Welcome to the documentation site!
 ---
-
-# Welcome to the documentation site!
 
 Here are examples of markdown styles! I will disappear on print.
 

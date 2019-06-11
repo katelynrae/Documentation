@@ -32,9 +32,22 @@ $s-width-sm: 20rem;
 $s-width-lg: 30rem;
 
 
+
 html, body { height: 100%; }
 
 .header__nav a.active, .footer__nav a.active {
-  color: $color-f;
-  border-bottom: 2px solid $color-f;
+  color: $color-primary;
+  border-bottom: 2px solid $color-primary;
+}
+
+figcaption {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+}
+
+#markdown-toc {
+  margin-bottom: 3rem;
 }

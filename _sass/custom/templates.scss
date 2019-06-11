@@ -1,49 +1,43 @@
 .tip-box {
-  padding: 15px;
-  background-color: $color-d;
-  border-radius: 20px;
-  color: white;
-  margin: 15px 0;
-  height: 100px;
-  min-height: 100px;
+  padding: 2rem;
+  background-color: $color-cyber-grape;
+  border-radius: 1rem;
+  color: white;;
+  min-height: 150px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-}
-
-.tip-box::after {
-  content: '';
-  width: 100%;
+  margin: 2rem 0;
 }
 
 .tip-box .tip-img-wrapper {
-  height: 60px;
-  width: 60px;
-  margin: 0 1.25rem 0 1rem;
+  width: 125px;
+  padding: 1rem;
 }
 
 .tip-box p.tip-title {
   padding: 0;
   font-weight: 700;
+  margin-bottom: 0.25rem;
 }
 
 .tip-box p.tip-content {
   padding: 0;
   order: 1;
+  margin-bottom: 0;
 }
 
 .tip-info {
-  border-left: 10px $color-f solid;
+  border-left: 10px $color-primary solid;
 }
 
 .tip-caution {
-  border-left: 10px $color-c solid;
+  border-left: 10px $color-mustard solid;
 }
 
 .code-block {
   padding: 15px 30px;
-  background-color: $color-d;
+  background-color: #f6f7f9;
   border-radius: 20px;
   margin: 1rem 0;
   border-left: 10px #00b4e5 solid;

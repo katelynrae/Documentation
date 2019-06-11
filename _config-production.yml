@@ -21,6 +21,7 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-relative-links
+  - jekyll-autoprefixer
 search_enabled: true
 aux_links:
   Network Canvas Home:
