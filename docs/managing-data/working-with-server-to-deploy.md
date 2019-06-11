@@ -5,6 +5,3 @@ parent: Managing Data
 nav_order: 1
 last_modified_at: 2019-03-08
 ---
-
-# Working with Server to deploy Network Canvas interviews
-
