@@ -129,6 +129,9 @@ code, pre.highlight {
 .search-results-wrap.active {
   top: 20px;
   left: 20px;
+  width: 285px;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 
 .search-results-list {
@@ -155,4 +158,14 @@ h1 {
 
 .page-content h1:first-of-type {
   margin-top: initial;
+}
+
+.page-content ol li::before {
+  font-size: 1.2rem !important;
+  top: 0;
+}
+
+th, td {
+  font-size: 1rem !important;
+  padding: 1em 0.75em;
 }
