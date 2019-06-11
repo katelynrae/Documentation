@@ -6,9 +6,6 @@ nav_order: 1
 last_modified_at: 2019-03-08
 ---
 
-# Getting to Know Network Canvas
-{: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -90,5 +87,3 @@ You can either export files to a Server if the device is paired with a specific 
 From the start screen, clicking on your desired protocol will bring up a pop-up dialog that allows you to enter a Case ID. Please note that Network Canvas does not enforce unique Case ID names. You can definitely have two cases with the same Case ID, and you will not be warned that this is the case.
 
 {% include nc-image src="assets/img/case-id.png" caption="The Case ID Dialog" %}
-
-# 
