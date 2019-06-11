@@ -96,25 +96,52 @@ code, pre.highlight {
     }
   }
 
+  @media (min-width: 46.25rem) {
+    margin-left: 300px;
+  }
+
+  @media (min-width: 70rem) {
+    padding-left: 2rem;
+    margin-left: calc((100% - 1032px) / 2 + 265px);
+  }
+
 }
 
 .header__container {
   max-width: calc(940px + 28rem);
   height: 100px;
-  padding: 0;
+  padding: 0 2rem;
   margin: 2rem auto;
+  align-items: center;
+  flex-direction: row;
 }
 
 @include mq(desktop-narrow, 'max-width') {
   .header__container {
-    justify-content: inherit;
-    flex-direction: row-reverse;
+    justify-content: space-between;
     
   }
 }
 
+.search {
+  max-width: 350px;
+}
+
 .search, .search-results-wrap, .search-results-wrap.active, .js-search-results {
   display: block;
+}
+
+.search-results-wrap.active {
+  top: 20px;
+  left: 20px;
+}
+
+.search-results-list {
+  font-size: 1rem !important;
+}
+
+.search-results-list-item {
+  padding-bottom: 0.5rem;
 }
 
 h1,

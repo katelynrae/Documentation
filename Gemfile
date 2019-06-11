@@ -36,3 +36,5 @@ gem 'jekyll-watch'
 
 # Allow nicer internal links
 gem 'jekyll-relative-links'
+
+gem 'jekyll-autoprefixer'
