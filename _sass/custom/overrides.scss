@@ -1,10 +1,15 @@
 // Overriding what's in the just-the-docs theme styles
 
+
+
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #f5f6fa;
   color: #3A3A75;
+  background: url('../img/sidebar-bg.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
 }
 
 a {
@@ -16,11 +21,16 @@ code, pre.highlight {
 }
 
 .header {
-  background-color: #fff;
+
+  &__nav {
+    a {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    
+  }
 }
-.page-content {
-  max-width: 800px;
-}
+
 .page-header .main-content {
   border-bottom: none;
   background-color: #fff;
@@ -65,10 +75,6 @@ code, pre.highlight {
     text-align: left;
     margin-bottom: 16px;
   }
-  & a {
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
 }
 
 .header__nav li:first-child, .header__nav li {
@@ -77,29 +83,50 @@ code, pre.highlight {
   }
 }
 
-.header, .main-content {
-  @media (min-width: 46.25rem) {
-    // margin-left: 20rem;
+.main-content {
+  min-height: 100%;
+  padding-top: 1rem !important;
+  padding-bottom: 0 !important;
+
+  .title-area {
+    margin-bottom: 2rem;
+
+    h1 {
+      margin-bottom: .75rem;
+    }
   }
-  @media (min-width: 70rem) {
-    // margin-left: 28rem;
-  }
+
 }
 
-.main-content {
-  background-color: #fff;
-  max-width: 100%;
-  min-height: 100%;
+.header__container {
+  max-width: calc(940px + 28rem);
+  height: 100px;
+  padding: 0;
+  margin: 2rem auto;
 }
 
 @include mq(desktop-narrow, 'max-width') {
   .header__container {
     justify-content: inherit;
     flex-direction: row-reverse;
-    height: 110px;
+    
   }
 }
 
 .search, .search-results-wrap, .search-results-wrap.active, .js-search-results {
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.6em;
+  margin-bottom: 1em;
+}
+
+.page-content h1:first-of-type {
+  margin-top: initial;
 }
