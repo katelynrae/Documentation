@@ -24,3 +24,10 @@ aux_links:
   Network Canvas Home:
   - "//networkcanvas.com"
 permalink: pretty
+navigation:
+  - title: About the Project
+    url: //www.networkcanvas.com/about.html
+  - title: Documentation
+    url: /
+  - title: Feedback
+    url: //www.networkcanvas.com/feedback.html
