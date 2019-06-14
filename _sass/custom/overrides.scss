@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  @include mq(tablet, 'min-width') {
+    @include mq(tablet, 'min-width') {
     background: url('../img/sidebar-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
