@@ -8,7 +8,7 @@ For development with live regeneration:
 `jekyll serve`
 
 For development build:
-`jekyll build --config _config-local.yml`
+`jekyll build`
 
 Default `JEKYLL_ENV` is `JEKYLL_ENV=development`. Not currently using this feature but you can insert it into templates if desired for conditional rendering:
 
@@ -22,9 +22,16 @@ Default `JEKYLL_ENV` is `JEKYLL_ENV=development`. Not currently using this featu
 
 Assumes http://documentation.networkcanvas.com/ as site url (set in `_config-production.yml`)
 
-`jekyll build JEKYLL_ENV=production --config _config-production.yml`
+`jekyll build JEKYLL_ENV=production --config _config.yml,_config-production.yml`
 
-(note: In future can make a small Rakefile that simplifies these commands or add them to deploy.sh ? Also - might be advisable to delete the entire _site folder before any production build, as it will regenerate.)
+### Build pdf
+
+1. Build and deploy/serve site (needed for images)
+1. Depending on where assets are being hosted/served:
+   (http://documentation.networkcanvas.com/)
+  `jekyll build JEKYLL_ENV=production --config _config.yml,_config-production.yml,_config-pdf.yml`
+   (http://localhost:4000)
+  `jekyll build JEKYLL_ENV=production --config _config.yml,_config-pdf.yml`
 
 ## Dependencies
 
