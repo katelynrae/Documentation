@@ -5,10 +5,11 @@ require 'tempfile'
 PDFKit.configure do |config|
   config.default_options = {
     :encoding      => 'UTF-8',
-    :page_size => 'Letter',
+    :lowquality => true,
+    :disable_javascript => true,
     :print_media_type => true,
     :quit => false,
-    :quiet => true,
+    :quiet => false,
   }
   config.verbose = false
 end
@@ -52,6 +53,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
     puts "Creating PDFs..."
     all_docs = Tempfile.new
     Pathname.glob(File.join('_site/docs/', '**/*.html')) do |item|
+      puts item
       content = File.read(only_read_body(item))
       # add content to all_docs file
       all_docs << content
@@ -61,7 +63,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
       # save_individual_pdf(item, content)
     end
     # save entire site file
-    # save_pdf(File.read(all_docs), File.join("_site", "pdfs"), "NetworkCanvasDocumentation.pdf")
+    save_pdf(File.read(all_docs), File.join("_site", "pdfs"), "NetworkCanvasDocumentation.pdf")
   end
   puts "Done."
 end

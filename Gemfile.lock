@@ -72,6 +72,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    wkhtmltopdf-binary (0.12.4)
 
 PLATFORMS
   ruby
@@ -86,6 +87,7 @@ DEPENDENCIES
   minima (~> 2.0)
   pdfkit
   tzinfo-data
+  wkhtmltopdf-binary
 
 BUNDLED WITH
    1.17.2
