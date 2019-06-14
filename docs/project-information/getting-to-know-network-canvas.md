@@ -8,13 +8,13 @@ last_modified_at: 2019-03-08
 
 ## Overview
 
-This section explains the various buttons and features of Network Canvas, the interview application. To install Network Canvas, view the [Network Canvas Installation Guide](./installation-guide.md).  
+This section explains the various buttons and features of Network Canvas, the interview application. To install Network Canvas, view the [Network Canvas Installation Guide](./installation-guide.md).
 
 Network Canvas is the main application in the Suite. It is where you, the researcher, collect data with respondents. Network Canvas should be easy for the participants to navigate with little assistance from yourself, but there are still many small issues that can trip up an interview. Being familiar with Network Canvas before going into the field can help ensure that your interview experience is smooth and your data is high quality.
 
 ## The Start Screen
 
-Opening up Network Canvas for the first time, you’ll be greeted by the Start Screen. This is where you can do the following tasks: 
+Opening up Network Canvas for the first time, you’ll be greeted by the Start Screen. This is where you can do the following tasks:
 
 1. Customise the settings of Network Canvas,
 2. Import a new protocol to start a new study,
@@ -23,17 +23,17 @@ Opening up Network Canvas for the first time, you’ll be greeted by the Start S
 
 {% include nc-image src="assets/img/start-screen.png" caption="The Network Canvas Start Screen" %}
 
-Remember that a protocol is the name of the file that is used to conduct the interview. Getting protocols into Network Canvas is the first thing you’ll need to do before actually using the software. 
+Remember that a protocol is the name of the file that is used to conduct the interview. Getting protocols into Network Canvas is the first thing you’ll need to do before actually using the software.
 
 You can build your own protocol with Architect. See [How to Create a Protocol](../creating-a-network-canvas-interview/index.md) for more information on how to build a protocol. You can also use one of the protocols provided on our website. Below are the buttons you can click on the Start Screen.
 
 | Icon         | Name              | Purpose |
 |:-------------|:------------------|:------|
-| ![image](../../../assets/img/settings-button.png)           | Settings button | Click here to reveal the settings menu. This is where you can adjust file management options and screen display size. |
-| ![image](../../../assets/img/import-protocol-button.png) | Add New Protocol button | Click here to bring up the protocol import menu. This dialog has options to import protocols from a server, a web address, or a file. |
-| ![image](../../../assets/img/protocol-card.png)           | Protocol Card | Each protocol you have imported is represented by a card such as this. Clicking it will start a new interview with that protocol. |
-| ![image](../../../assets/img/protocol-navigation.png)           | Protocol switching buttons | When you have multiple protocols installed, you can swipe (on a touchscreen) or use these buttons to cycle through your protocols to find the right one for your interview. |
-| ![image](../../../assets/img/manage-sessions-button.png)  | Manage Interview Sessions button | Clicking here will bring up the ‘Manage Interview Sessions’ screen, which lists the previously entered files that are still stored on this device, along with helpful details like name and date. |
+| ![image]({{ "assets/img/settings-button.png" | absolute_url }})           | Settings button | Click here to reveal the settings menu. This is where you can adjust file management options and screen display size. |
+| ![image]({{ "assets/img/import-protocol-button.png" | absolute_url }}) | Add New Protocol button | Click here to bring up the protocol import menu. This dialog has options to import protocols from a server, a web address, or a file. |
+| ![image]({{ "assets/img/protocol-card.png" | absolute_url }})           | Protocol Card | Each protocol you have imported is represented by a card such as this. Clicking it will start a new interview with that protocol. |
+| ![image]({{ "assets/img/protocol-navigation.png" | absolute_url }})           | Protocol switching buttons | When you have multiple protocols installed, you can swipe (on a touchscreen) or use these buttons to cycle through your protocols to find the right one for your interview. |
+| ![image]({{ "assets/img/manage-sessions-button.png" | absolute_url }})  | Manage Interview Sessions button | Clicking here will bring up the ‘Manage Interview Sessions’ screen, which lists the previously entered files that are still stored on this device, along with helpful details like name and date. |
 
 ## The Settings Menu
 
@@ -45,7 +45,7 @@ Clicking on the gears will bring up the Settings Window. This is for global sett
 
 {% include tip-info content="You can also change these settings during an interview. This can be useful if your respondent finds the text too small." %}
 
-Scroll down below _Interface Scale_ and you will see additional options. If you still find the text too small, you might want to deselect Dynamic Scaling. However, this can also make some features of Network Canvas very cramped. Always test your protocol once you have selected your display settings. 
+Scroll down below _Interface Scale_ and you will see additional options. If you still find the text too small, you might want to deselect Dynamic Scaling. However, this can also make some features of Network Canvas very cramped. Always test your protocol once you have selected your display settings.
 
 The _Full Screen Node Form_ is a feature designed for tablets. Forms are panels that contain multiple questions about either the participant [ego] or the nodes nominated by the participant [alters]. When you are working exclusively on a tablet, then you will need to use the on-screen keyboard for entering details in forms. In such cases, the full screen node form will present each question one by one rather than all in the same panel. This is slower, but it helps when screen space is tight.
 
