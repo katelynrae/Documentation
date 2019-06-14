@@ -6,9 +6,9 @@ html, body {
   height: 100%;
   margin: 0;
   color: #3A3A75;
+}
 
-
-
+body {
   @include mq(tablet, 'min-width') {
     background: url('../img/sidebar-bg.svg');
     background-repeat: no-repeat;
