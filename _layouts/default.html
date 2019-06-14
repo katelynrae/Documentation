@@ -11,7 +11,7 @@
         <header class="header">
             <div class="header__container">
 
-                <div class="header__logo"></div>
+                <a href="https://networkcanvas.com"><div class="header__logo"></div></a>
 
                 <div class="header__menu-trigger" aria-label="Opens nav menu" aria-expanded="false" aria-controls="nav" tabindex="0">
                     <span></span>
@@ -71,8 +71,10 @@
                     {% endfor %}
                 </ol>
                 {% else %}
+                {% if page.has_toc != false %}
                 <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
                 {% include toc.html html=content sanitize=true ordered=true %}
+                {% endif %}
                 {% endif %}
                 {{content}}
             </div>
