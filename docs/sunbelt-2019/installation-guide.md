@@ -43,8 +43,8 @@ See the chart below for compatibility.
   2GB RAM.</p>
 
   <p><sup id="linux-compat">3</sup> Entire suite tested on Ubuntu and Manjaro Linux. We
-  recommend at least 2 gb of RAM. The applications will require approximately
-  100mb of space for a complete install.  Additional configuration steps may be
+  recommend at least 2GB of RAM. The applications will require approximately
+  100MB of space for a complete install.  Additional configuration steps may be
   required to enable automatic server discovery. Please contact us for details.</p>
 
   <p><sup id="ios-compat">4</sup> Network Canvas is designed for larger tablet
@@ -57,11 +57,11 @@ See the chart below for compatibility.
 
 ## Installation for Windows
 
-Visit the download page [download page](https://networkcanvas.com/download.html), and download the Windows version of each app you require.
+Visit the [download page](https://networkcanvas.com/download.html), and download the Windows version of each app you require.
 
 Open each .exe file. You may be presented with a dialog that says the application
 cannot be run because it is from an unsigned publisher. This happens because
-the our apps have not yet built up enough trust with Microsoft to automatically pass these filters. This will change as more users install our apps.
+our apps have not yet built up enough trust with Microsoft to automatically pass these filters. This will change as more users install our apps.
 
 In order to continue to install the application simply click the "more info" text in the
 dialog. Then a "Run Anyway" button should appear. Once the application is
@@ -69,7 +69,7 @@ installed it should open straight away. You should also be able to find the
 application in your program list from the start menu.
 
 ## Installation for macOS
-Visit the download page [download page](https://networkcanvas.com/download.html), and download the macOS version of each app you require. These are packaged in the form of a DMG disk archive.
+Visit the [download page](https://networkcanvas.com/download.html), and download the macOS version of each app you require. These are packaged in the form of a DMG disk archive.
 
 When you double-click on the file it will open a new Finder window with the
 application icon and a folder representing your computer's "Applications"
@@ -87,7 +87,7 @@ package formats for distributing Linux packages.
 
 ### App Image
 
-Visit the download page [download page](https://networkcanvas.com/download.html), and download the AppImage version of each app you require.
+Visit the [download page](https://networkcanvas.com/download.html), and download the AppImage version of each app you require.
 
 Once downloaded, installation should be as simple as making the .AppImage file
 executable, and then double clicking it. You should then be prompted to
@@ -95,11 +95,11 @@ integrate the package with your system.
 
 ### SNAP
 
-Visit the download page [download page](https://networkcanvas.com/download.html), and download the SNAP version of each app you require.
+Visit the [download page](https://networkcanvas.com/download.html), and download the SNAP version of each app you require.
 
-The latest alpha versions of the suite will soon be made available available through the Snapcraft
+The latest alpha versions of the suite will soon be made available through the Snapcraft
 Store by searching for the names of the apps. For the time being these versions
-may not fully functional. In particular, functions that require network or
+may not be fully functional. In particular, functions that require network or
 device access may not work correctly, or at all.
 
 ## Notes on installation for Android
@@ -136,7 +136,7 @@ software. To install Network Canvas on your device, you will first need to
 download and install the Test Flight app from the Apple App Store.
 
 Once you have completed this, you can click on the following link to join the
-testing program: [Network Canvas on Apple TestFlight](https://testflight.apple.com/join/xHonPrKO)
+testing program: [Network Canvas on Apple TestFlight](https://testflight.apple.com/join/xHonPrKO).
 
 Network Canvas was developed on a 12.9" iPad pro, and will work best with
 larger iOS devices (9.7"+). A version of iOS greater than 10 is required to
