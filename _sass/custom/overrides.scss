@@ -96,6 +96,7 @@ code, pre.highlight {
 
   @include mq(tablet, 'min-width') {
     margin-left: 300px;
+    padding-bottom: 3rem !important;
   }
 
   @include mq(tablet, 'max-width') {
