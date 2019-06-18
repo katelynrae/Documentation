@@ -3,7 +3,7 @@
   list-style: none;
   counter-reset: my-awesome-counter;
 }
-.page-content ol li {
+.page-content > ol > li {
   counter-increment: my-awesome-counter;
 }
 .page-content ol li::before {
