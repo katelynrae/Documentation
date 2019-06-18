@@ -250,14 +250,14 @@ To do this, select “AlterFriendEdge” under “Display edges of the following
 
 {% include nc-image src="assets/img/architect-guide/20.png" %}
 
-Configuring the sociogram prompt to enable variable toggling involves two steps: (1) toggle  \
-“Enable variable toggling by tapping a noode” to the “on” position, and (2) create (or select) a boolean variable to be assigned in the box that appears below.
+Configuring the sociogram prompt to enable variable toggling involves two steps: (1) toggle
+“Enable variable toggling by tapping a node” to the “on” position, and (2) create (or select) a boolean variable to be assigned in the box that appears below.
 
 In this case of this prompt, using the techniques we have already covered, create a variable called “AlterSexPartner” and press “Save and Continue”. We have now finished configuring the sociogram.
 
 | Preview mode for sociogram                          |
 | :----------------------------------------------------------- |
-| When previewing a stage using an interface type that does not create nodes, you may notice that no nodes are available to test the stage's functionality.<br/><br/>To address this, the preview mode allows you to create nodes from any earlier stages in your interview that are capable of this (primarilly name generators or roster interfaces).<br/><br/>Simply navigate to a stage that creates nodes from within preview mode, create some nodes suitable for your sociogram stage, and then navigate to the sociogram stage - your nodes will appear, and you will be able to test edge creation, variable toggling, and positioning. |
+| When previewing a stage using an interface type that does not create nodes, you may notice that no nodes are available to test the stage's functionality.<br/><br/>To address this, the preview mode allows you to create nodes from any earlier stages in your interview that are capable of this (primarily name generators or roster interfaces).<br/><br/>Simply navigate to a stage that creates nodes from within preview mode, create some nodes suitable for your sociogram stage, and then navigate to the sociogram stage - your nodes will appear, and you will be able to test edge creation, variable toggling, and positioning. |
 
 ## Creating an Ordinal Bin
 
@@ -312,7 +312,7 @@ Create a variable named “AlterSupport” with the following possible options:
 | :----------------------------------------------------------- |
 | By convention, the Network Canvas software uses two terms for the containers that nodes are dragged between on the Ordinal Bin, Categorical Bin, and Sociogram interfaces.<br/><br/>Buckets are where nodes are found initially, before they have been placed, or dragged.<br/><br/>Bins are where nodes are placed are dragged to. This is where nodes end up.<br/><br/>Both bins and buckets can have the sort order of the nodes within them defined. You can use this to (for example) make the bucket show nodes with a certain attribute, such as closeness, first. This may help with a task such as positioning nodes on a sociogram.<br/><br/> |
 
-In the case of our prompt, we will use the default node bin and bucket sort options. Click “Save and Close” to finish editing this prompt, and then click “Continue” to return to the timeline view.
+In the case of our prompt, we will use the default node bin and bucket sort options. Click “Save and Continue” to finish editing this prompt, and then click “Continue” to return to the timeline view.
 
 ## Creating a Categorical Bin
 
@@ -333,14 +333,14 @@ To finish the protocol, add a new Name Generator stage with the following charac
 
 * Uses the “Name Generator (using quick add)” interface
 * Creates a new node type called “Restaurants”, that uses a blue node color and the “place” icon.
-* Assigns a variable called “name” as the Quick Add Variable
+* Assigns a variable called “restaurant_name” as the Quick Add Variable
 * Has a single prompt, with text that reads “What are the names of some of your favorite fast food restaurants?”
 
 ## Finishing off your protocol file
-Now with each of these stages in the protocol, make sure to save your file. The file name will be the name of the protocol as used in Network Canvas. To import this file into Network Canvas you can do this in the following ways:
+Now with each of these stages in the protocol, make sure to save your file. The file name of the protocol set in Architect will be the same name used in both the Network Canvas app and the Server. There are numerous ways to transition from building the protocol within the Architect to deployment.
 
-- Import the file directly on your local computer
-- Put the file on a web server and then point people to the address. This assumes you are comfortable working with a web server.
-- Use Network Canvas Server to manage the workflow. This includes sending protocols to field devices and then receiving data from these devices for collation and export.
+- Within the Network Canvas app, import the protocol file directly from a file location your local computer.
+- Host the protocol file on a web server and then within the Network Canvas app, import the protocol file from web URL.
+- Use Network Canvas Server to manage the workflow. Once the protocol is loaded into Server it can be deployed to numerous field devices and then receive data from these devices for collation and export.
 
 In the next section (Server and Network Canvas Workflows) we will show you how to use Server to load a protocol file onto multiple devices and then receive the data from those devices.
