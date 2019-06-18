@@ -1,11 +1,12 @@
 ---
 layout: default
-# title: Server and Network Canvas Workflows
+title: Server and Network Canvas Workflows
 parent: Sunbelt 2019 Workshop Materials
 nav_order: 4
 last_modified_at: 2019-06-14
+show_in_nav: false
 ---
-
+<!-- 
 ### Server and Network Canvas Workflows
 
 
@@ -243,4 +244,4 @@ Once you have a protocol ready to use, it has to be imported into Network Canvas
 *   We will take the opportunity to solicit feedback on the project from attendees, and discuss specific research problems/questions (potentially also having time to demonstrate solutions).
 *   
 
-**Key questions answered in this section: **What makes useful feedback for the project? Which types of feedback are less useful? How do I provide feedback? How can I collaborate?
+**Key questions answered in this section: **What makes useful feedback for the project? Which types of feedback are less useful? How do I provide feedback? How can I collaborate? -->

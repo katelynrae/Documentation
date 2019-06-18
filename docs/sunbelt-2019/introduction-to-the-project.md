@@ -1,12 +1,13 @@
 ---
 layout: default
-# title: Introduction to the Project
+title: Introduction to the Project
 parent: Sunbelt 2019 Workshop Materials
 nav_order: 2
 last_modified_at: 2019-06-14
+show_in_nav: false
 ---
 
-## Overview
+<!-- ## Overview
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XzfE6j-LnII" frameborder="0" allowfullscreen></iframe><br/>
 
@@ -167,4 +168,4 @@ We will cover data management operations later, but you can see that it is possi
 
 For now click “Finish” to return to the start screen.
 
-![image](/assets/img/introduction-images/finish.png)
+![image](/assets/img/introduction-images/finish.png) -->
