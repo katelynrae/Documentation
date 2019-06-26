@@ -58,28 +58,42 @@ figcaption {
 }
 
 table.key-concept {
-  background: $color-cyber-grape;
+  background: $color-sea-serpent;
   border-radius: 0.75rem;
+  font-size: 18px !important;
+  padding: 2.5em;
+  margin: 4em;
+  width: auto;
+
+  code {
+    color: $color-cyber-grape;
+  }
 
   td, tr, th {
-    font-size: 1rem;
+    font-size: 1em !important;
     border: 0;
-    padding: 0 2rem;
     margin: 0;
     background: transparent;
     color: white;
   }
 
+  td {
+    padding: 0;
+  }
+
   thead {
-    padding: 2rem 0 0;
+    padding: 0;
 
     tr {
-      font-size: 1.2rem;
+      th {
+        // font-size: 1.2em !important;
+        padding: 0 0 2em;
+      }
     }
   }
 
   tbody{
-    padding: 2rem 0;
+    padding: 0;
   }
 
   thead, tbody {

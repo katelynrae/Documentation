@@ -2,7 +2,7 @@
 layout: default
 title: A Sample Network Canvas Interview
 parent: Sunbelt 2019 Workshop Materials
-nav_order: 3
+nav_order: 1
 last_modified_at: 2019-06-14
 ---
 
@@ -27,9 +27,10 @@ Case IDs help you resume the appropriate interview in case you need to step away
 
 ![image](/assets/img/introduction-images/case-id.png)
 
-| Key Concepts:                          |
+| Key Concept: General User Interface                          |
 | :----------------------------------------------------------- |
 | A timeline running along the left edge of the screen shows the progress through the interview. As we move forwards, the bar will fill up, and eventually turn green when we are finished.<br/><br/>Next (down arrow) and previous (up arrow) buttons, which can be used by the participant or by the researcher to advance the interview.<br/><br/>A settings menu in the top right. |
+{: .key-concept }
 
 ## The Ego Form
 
@@ -39,9 +40,10 @@ The first thing we see is a simple form that asks us (as the participant) to giv
 
 While Network Canvas is optimized to report information about other individuals, we also provide the ability for researchers to capture data about egos.
 
-| Key Concepts:                          |
+| Key Concept: Stages and Interfaces                          |
 | :----------------------------------------------------------- |
 | Each interview is made up of what we call stages. Think of them as screens that your participant will see in sequence.<br/><br/>You can have as many stages in your interview as you feel you need, and as we will see later, there are many ways to structure your interview.<br/><br/>Each stage is an instance of what we call an interface. Interfaces are designed for a specific data collection task, such as generating names, collecting ordinal data, or showing a form. <br/><br/>Ego Form is an interface which collects information about the Ego (the participant). The Ego Form is able to capture various types of data.  |
+{: .key-concept }
 
 So this is the first “stage” of our interview, and it uses the “ego form” interface. You can see that within this simple form we have different types of variables being collected.
 
@@ -49,9 +51,10 @@ So this is the first “stage” of our interview, and it uses the “ego form�
 
 Next we find our first name generator stage, which is where the participant will name some alters. We have two prompts here - the first asking who are your closest friends, and the second asking who are the other important people in your life. We add individuals by clicking the button on the bottom right.
 
-| Key Concepts:                          |
+| Key Concept: Name Generators                          |
 | :----------------------------------------------------------- |
 | Name Generators are interfaces which allow for the nomination of entities.<br/><br/>The name generator here allows detailed data to be collected about each person.<br/><br/>Within the Name Generator interface, Prompts are the text at the top which asks participants to nominate entities. Numerous prompts are can be used within a single Name Generator interface. <br/><br/>Alters are added by clicking the Add Alter Button in the bottom right hand corner. |
+{: .key-concept }
 
 ![image](/assets/img/introduction-images/name-generator.png)
 
@@ -71,10 +74,9 @@ Finally, we ask of these individuals - who is either a current or a past sex par
 
 Next, we want to know more about your relationships with these people.
 
-| Key Concepts:                          |
+| Key Concept: Ordinal Bin Interface                          |
 | :----------------------------------------------------------- |
-| Ordinal Bin is a configurable interface which allows you to drag nodes into a "bin" representing an ordinal variable value, and thereby to assign that value to the node. This interface greatly improves response burden of "matrix type" questions, where the same question is asked for each alter that has been nominated.<br/><br/>
-Categorical Bin is the same concept, but for categorical data. |
+| Ordinal Bin is a configurable interface which allows you to drag nodes into a "bin" representing an ordinal variable value, and thereby to assign that value to the node. This interface greatly improves response burden of "matrix type" questions, where the same question is asked for each alter that has been nominated. |
 {: .key-concept }
 
 ![image](/assets/img/introduction-images/ordinal-bin.png)
@@ -85,10 +87,11 @@ Categorical Bin is the same concept, but for categorical data. |
 
 Now we find ourselves back on a name generator stage in order to show you a different way of nominating alters. Here, we use the “quick add” Name Generator, which only asks for a name. Creating an alter is as simple as clicking the button, typing a name, and pressing enter. When you are finished, either click the button, or click away, to close.
 
-| Key Concepts:                          |
+| Key Concept: "Quick Add" mode                          |
 | :----------------------------------------------------------- |
 | Name Generator (using quick add) is an interface which allows for the quick nomination of entities without asking for further details.<br/><br/>
 Multiple types of entities can be elicited within the same protocol. For example, this protocol contains Node Type "Person" and "Restaurant". |
+{: .key-concept }
 
 ## The Finish Screen
 
@@ -96,9 +99,10 @@ Finally we reach the end of this hypothetical interview, and we are presented wi
 
 We will cover data management operations later, but you can see that it is possible to remotely transfer the interview to an instance of Server, or to export a graphml file from this screen.
 
-| Key Concepts:                          |
+| Key Concept: Exporting data                          |
 | :----------------------------------------------------------- |
 | After an interview is completed within the Network Canvas App, participant data can either be remotely transferred to Server, or immediately exported to a `.graphml` file. |
+{: .key-concept }
 
 For now click “Finish” to return to the start screen.
 
