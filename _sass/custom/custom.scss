@@ -41,11 +41,12 @@ html, body { height: 100%; }
 }
 
 figcaption {
-  margin-top: -1rem;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   text-align: center;
   font-style: italic;
   font-size: small;
+  font-weight: 900;
 }
 
 #markdown-toc {
@@ -54,4 +55,35 @@ figcaption {
 
 .small {
   font-size: .8rem;
+}
+
+table.key-concept {
+  background: $color-cyber-grape;
+  border-radius: 0.75rem;
+
+  td, tr, th {
+    font-size: 1rem;
+    border: 0;
+    padding: 0 2rem;
+    margin: 0;
+    background: transparent;
+    color: white;
+  }
+
+  thead {
+    padding: 2rem 0 0;
+
+    tr {
+      font-size: 1.2rem;
+    }
+  }
+
+  tbody{
+    padding: 2rem 0;
+  }
+
+  thead, tbody {
+    /* box-sizing: content-box; */
+    display: grid;
+  }
 }

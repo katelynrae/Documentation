@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Installation Guide
-parent: Sunbelt 2019 Workshop Materials
-nav_order: 1
+parent: Getting Started
+nav_order: 2
 last_modified_at: 2019-06-14
 ---
 

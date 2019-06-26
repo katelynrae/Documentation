@@ -24,6 +24,7 @@ aux_links:
   Network Canvas Home:
   - "//networkcanvas.com"
 permalink: pretty
+ga_tracking: "UA-100029443-1"
 navigation:
   - title: About the Project
     url: //networkcanvas.com/about.html
