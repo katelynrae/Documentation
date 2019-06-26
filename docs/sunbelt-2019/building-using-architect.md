@@ -20,9 +20,10 @@ This is the start screen in Architect. It presents you with three options:
 * Open an existing one from the file browser
 * Open a recently opened protocol. If you are launching the app for the first time, this panel will be empty.
 
-| About Network Canvas protocol files                          |
+| Key Concept: Network Canvas protocol files                          |
 | :----------------------------------------------------------- |
-| Network Canvas protocols are stored in a file with the extension .netcanvas<br/><br/>They are just like any other files on your computer. You can move them around, rename them (more about this later), and you can (and should!) back them up.<br/><br/>The `.netcanvas` file contains all of the data in your protocol. So if you use roster data, images, or video, these will be embedded within the file. |
+| Network Canvas protocols are stored in a file with the extension .netcanvas<br/><br/>They are just like any other files on your computer. You can move them around, rename them (more about this later), and you can (and should!) back them up.<br/><br/>The `.netcanvas` file contains all of the data in your protocol. So if you use roster data, images, or video, these will be embedded within the file. | 
+{: .key-concept }
 
 We are going to start by creating a blank protocol, so click “create new” and save the file with a name and location that you will be able to find later.
 
@@ -30,9 +31,10 @@ And this takes us to the main protocol overview screen for our new protocol.
 
 {% include nc-image src="assets/img/architect-guide/2.png" %}
 
-| Overview of protocol editing screen                          |
+| Key Concept: The protocol editing screen                          |
 | :----------------------------------------------------------- |
 | The grey panel is called the "overview panel", and it shows the protocol name and description, and has two buttons for managing assets and managing the codebook.<br/><br/>In the top left, you can see the Architect logo. Clicking this button will take you out of the current protocol, and back to the start screen.<br/><br/>Extending out of the bottom of the overview panel is a red line which represents the "timeline". This is a key metaphor that runs between Architect and Network Canvas. The timeline represents the sequence of stages that the participant passes through during the interview. As we add stages to our interview, they will appear on this line, from top to bottom. |
+{: .key-concept }
 
 The protocol description is optional. Whatever you enter will show up in the Network Canvas App on the start screen, and when browsing the list of available protocols from Server.
 
@@ -72,9 +74,10 @@ For example, let’s start by asking for our participant’s name. We click “c
 
 {% include nc-image src="assets/img/architect-guide/6.png" %}
 
-| Create a new variable or select an existing one                          |
+| Key Concept: Creating vs selecting variables                          |
 | :----------------------------------------------------------- |
 | Many screens in Architect allow you to either create a new variable, or select an existing variable. If this is the case, the text next to the input will usually tell you.<br/><br/>When you want to create a new variable, simply type into the box, and the option to create the variable will appear.<br/><br/>Otherwise, click inside the box to view a list of existing variables that you can choose from. |
+{: .key-concept }
 
 In this case, since we have no variables within this protocol yet, we need to create one. Type “EgoName” into the variable name box (again, consider using a consistent variable naming scheme), and press enter. This creates the variable.
 
@@ -82,9 +85,10 @@ Next, we must provide the question prompt - or the text that will accompany this
 
 Finally, we choose the input control that will be shown to collect this variable.
 
-| Input controls                          |
+| Key Concept: Input controls                          |
 | :----------------------------------------------------------- |
 | Architect and Network Canvas implement many different types of input control [text, number, checkbox group, toggle, radio button group, toggle button group], and we hope to add even more in the future.<br/><br/>This is because the most appropriate interface for assigning a variable depends very much on the specific nature of the variable, and not just on its data type.<br/><br/>For example, when collecting an ordinal variable that represents a likert scale, you might prefer a range slider OR a group of radio buttons. When collecting a numeric variable, you might want to provide plus and minus buttons that can easily be tapped, rather than having the participant type a value. |
+{: .key-concept }
 
 Because this is a simple text variable, we choose the text input.
 
@@ -118,9 +122,10 @@ We can now take the opportunity to see what our stage will look like in our fini
 
 Clicking it will open a window with our stage loaded, and show the interface functioning as it will on an actual Network Canvas device.
 
-| Preview Mode                          |
+| Key Concept: Preview Mode                          |
 | :----------------------------------------------------------- |
 | You can choose between different device presets, to mimic the look of a specific piece of hardware. For example you can emulate the screen size of an iPad, or a widescreen laptop.<br/><br/>You can scale the preview window so that you can fit it best with your workspace.<br/><br/>You can enter data in preview mode - for example creating nodes - but the data does not persist after you close the window. More on this later. |
+{: .key-concept }
 
 Click the pink “Preview” button in the bottom left hand corner of the stage editor, and the preview window will open.
 
@@ -140,9 +145,10 @@ As before, we will enter a stage name (“NameGen (People)”).
 
 Before we can continue, we must tell Architect which type of node this interface will create. Since this is our first name generator, we have no node types defined yet. Click the “Create New Node Type” button to begin the process of creating one.
 
-| Node and Edge "Types"                          |
+| Key Concept: Node and Edge "Types"                          |
 | :----------------------------------------------------------- |
 | Part of the ontological flexibility of the Network Canvas suite is the ability to model unlimited numbers of node and edge types.<br/><br/>The most frequently used example from personal networks research would be a social network made up of "people" node types, and edge types based on relationships of some kind or another (typically "friendship"). We would therefore create a node of type "Person", and an edge of type "Friendship" within Architect. |
+{: .key-concept }
 
 Our name generator will ask about people, so we will name our node type “People”. We can select a color to differentiate this node type from others, though in this case we will leave the default coral color selected.
 
@@ -168,9 +174,10 @@ Create the following fields, with appropriate input controls, question prompts a
 
 Next we must provide some questions to prompt the participant into adding alters within the interview.
 
-| About prompts                          |
+| Key Concept: Prompts                          |
 | :----------------------------------------------------------- |
 | Most stages use the concept of "prompts" to allow you to define questions to put to the participant during the interview. You are free to explain the task to the participant in ways that are meaningful to your study.<br/><br/>You can have multiple prompts on a single stage, or a single prompt per stage - the choice is yours. You may wish to think about grouping prompts by theme, and then having one stage for each theme. For example, "Name Generator (family)" could contain prompts about family alters, and "Name Generator (colleagues)" could contain prompts about professional alters.<br/><br/>Prompts can contain formatting such as bold or italicised text to create emphasis and rhythm. To create this formatting, use markdown syntax. |
+{: .key-concept }
 
 Click the “create new” button in the prompt section, to open the new prompt edit form.
 
@@ -186,9 +193,10 @@ Tip: At any point during this tutorial, free free to click the “Save” button
 
 ## Creating a Sociogram
 
-| Features of the Sociogram                          |
+| Key Concept: Features of the Sociogram                          |
 | :----------------------------------------------------------- |
 | The Sociogram is an interface designed to allow participants to interact with the alters produced within Name Generator stages in three principle ways.<br/><br/>(1) Layout, where the participant spatially arranges the nodes; (2) Edge creation, where the participant can create alter-alter ties; (3) Variable toggling, where the participant can nominate alters has having a given boolean attribute. |
+{: .key-concept }
 
 By now you should have a feel for the process of configuring a stage within Architect. We will continue by adding a Sociogram to our interview, which builds on many of the concepts we have already covered.
 
@@ -234,9 +242,10 @@ Next, we must define an edge type that this prompt will create. This process wor
 
 To do this, type “AlterFriendEdge” into the box that says “Create edges of the following type”, and press enter to create this edge type.
 
-| Creating and displaying edges                          |
+| Key Concept: Creating and displaying edges                          |
 | :----------------------------------------------------------- |
 | The sociogram is the primary location within the interview where edges are created.<br/><br/>A sociogram prompt can only create a single edge type at a time, but note that it can display several.<br/><br/>In the scenario where multiple edge types are selected for display, creating a new edge that would cover an existing one works simply - the existing edge is visually replaced with the new edge type. Both edges are still stored in the interview network. Removing this new edge will revert the visual display to the previously visible edge type (only one edge type can be created or removed on a prompt).<br/><br/>You may consider using this feature to progressively build up a network, by allowing the participant to use the visual "scaffolding" of existing edges to quickly identify where to create new ones. |
+{: .key-concept }
 
 ### Toggling a variable
 
@@ -255,9 +264,10 @@ Configuring the sociogram prompt to enable variable toggling involves two steps:
 
 In this case of this prompt, using the techniques we have already covered, create a variable called “AlterSexPartner” and press “Save and Continue”. We have now finished configuring the sociogram.
 
-| Preview mode for sociogram                          |
+| Key Concept: Preview mode for sociogram                          |
 | :----------------------------------------------------------- |
 | When previewing a stage using an interface type that does not create nodes, you may notice that no nodes are available to test the stage's functionality.<br/><br/>To address this, the preview mode allows you to create nodes from any earlier stages in your interview that are capable of this (primarily name generators or roster interfaces).<br/><br/>Simply navigate to a stage that creates nodes from within preview mode, create some nodes suitable for your sociogram stage, and then navigate to the sociogram stage - your nodes will appear, and you will be able to test edge creation, variable toggling, and positioning. |
+{: .key-concept }
 
 ## Creating an Ordinal Bin
 
@@ -308,9 +318,10 @@ Create a variable named “AlterSupport” with the following possible options:
 
 {% include nc-image src="assets/img/architect-guide/22.png" %}
 
-| "Bins" and "Buckets"                          |
+| Key Concept: "Bins" and "Buckets"                          |
 | :----------------------------------------------------------- |
-| By convention, the Network Canvas software uses two terms for the containers that nodes are dragged between on the Ordinal Bin, Categorical Bin, and Sociogram interfaces.<br/><br/>Buckets are where nodes are found initially, before they have been placed, or dragged.<br/><br/>Bins are where nodes are placed are dragged to. This is where nodes end up.<br/><br/>Both bins and buckets can have the sort order of the nodes within them defined. You can use this to (for example) make the bucket show nodes with a certain attribute, such as closeness, first. This may help with a task such as positioning nodes on a sociogram.<br/><br/> |
+| By convention, the Network Canvas software uses two terms for the containers that nodes are dragged between on the Ordinal Bin, Categorical Bin, and Sociogram interfaces.<br/><br/>Buckets are where nodes are found initially, before they have been placed, or dragged.<br/><br/>Bins are where nodes are placed are dragged to. This is where nodes end up.<br/><br/>Both bins and buckets can have the sort order of the nodes within them defined. You can use this to (for example) make the bucket show nodes with a certain attribute, such as closeness, first. This may help with a task such as positioning nodes on a sociogram. |
+{: .key-concept }
 
 In the case of our prompt, we will use the default node bin and bucket sort options. Click “Save and Continue” to finish editing this prompt, and then click “Continue” to return to the timeline view.
 
