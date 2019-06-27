@@ -3,12 +3,12 @@ layout: default
 title: Building a protocol using Architect
 parent: Sunbelt 2019 Workshop Materials
 nav_order: 2
-last_modified_at: 2019-06-14
+last_modified_at: 2019-06-27
 ---
 
 ## Introducing Architect
 
-We are now going to introduce you to creating a protocol using Architect, by trying to rebuild the protocol we previewed in the previous session.
+This article introduces you to creating a protocol using Architect, by trying to rebuild the protocol we previewed in the previous session.
 
 Architect is a desktop application which runs on Windows, macOS, and Linux operating systems. You don’t need to run Architect on the computer that you use to run Network Canvas or Server.
 
@@ -189,7 +189,7 @@ Repeat this process for the second prompt, this time using the text “Are there
 
 You can optionally preview the interface at this point, checking that the prompts and the form look and function as you expected. When you are satisfied, click continue to add your stage.
 
-Tip: At any point during this tutorial, free free to click the “Save” button in the bottom bar when on the timeline view, or select “File -> Save” from the menu.
+{% include tip-info content="At any point during this tutorial, free free to click the “Save” button in the bottom bar when on the timeline view, or select “File -> Save” from the menu." %}
 
 ## Creating a Sociogram
 

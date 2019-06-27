@@ -39,15 +39,31 @@ html, body { height: 100%; }
   color: $color-primary;
   border-bottom: 2px solid $color-primary;
 }
+figure {
 
-figcaption {
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  font-style: italic;
-  font-size: small;
-  font-weight: 900;
+  
+
+  @include mq(tablet, 'min-width') {
+    margin: 1em 40px;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-weight: 900;
+  }
+
+  &.macos-screenshot {
+    figcaption {
+      margin-top: -15px;
+    }
+  }
+
 }
+
 
 #markdown-toc {
   margin-bottom: 3rem;
@@ -58,23 +74,24 @@ figcaption {
 }
 
 table.key-concept {
-  background: $color-sea-serpent;
+  background: #eeebee;
   border-radius: 0.75rem;
   font-size: 18px !important;
-  padding: 2.5em;
-  margin: 4em;
+  padding: 2em;
+  border-left: 10px solid $color-sea-serpent;
   width: auto;
+  box-shadow: none;
 
   code {
     color: $color-cyber-grape;
   }
 
   td, tr, th {
-    font-size: 1em !important;
+    font-size: 1rem !important;
     border: 0;
     margin: 0;
     background: transparent;
-    color: white;
+    color: $color-cyber-grape;
   }
 
   td {
@@ -86,8 +103,8 @@ table.key-concept {
 
     tr {
       th {
-        // font-size: 1.2em !important;
-        padding: 0 0 2em;
+        font-size: 1.2rem !important;
+        padding: 0 0 1em;
       }
     }
   }
