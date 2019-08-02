@@ -9,7 +9,9 @@ show_in_nav: false
 
 ## Introducing Network Canvas Server
 
-Server is an optional companion program to Network Canvas and Architect. Server is used to:
+Server is an optional companion program to Network Canvas and Architect.
+
+Server is used to:
 
 * Ensure the same interview protocol is deployed on multiple devices,
 * Manage the data from multiple devices in a single location,
@@ -18,13 +20,17 @@ Server is an optional companion program to Network Canvas and Architect. Server 
 * Display brief data summaries on key protocol variables,
 * Export the data of multiple interview files in a form for analysis.
 
-You may be wondering whether, must use Server to run a Network Canvas study? Not necessarily. Network Canvas protocols can be designed in Architect and opened directly in Network Canvas. That is often good enough for very small studies or work with one device. There are times, however, when researchers will be working with many cases, multiple devices, or have a need to keep all their case files in a single location. For these cases where you need to scale up data collection and collation, Server is  a useful companion to Network Canvas designed for project workflows.
+Server is not required to run a Network Canvas study. Network Canvas protocols can be designed in Architect and opened directly in Network Canvas. That is often sufficient for very small studies using a single device. However, if your study entails working with many cases on multiple devices and maintaining your case files in a single location, Server will be a useful component of your project workflow.
 
-Server is also a good way to ensure that your cases are backed up. By uploading them to Server you are creating a copy of your data. This copy will still only be on your own device running Server. Since Network Canvas never transfers data to anywhere except Server, this is an ideal way to ensure cases are backed up while you are in the field. Finally, Server is useful when you have multiple people in the field, each using a different tablet or field device. You can upload data from your interviews via multiple devices to a single instance of Server. Server will let you know which cases have been uploaded, thus helping with project management. That same instance of Server will be able to export all of the data in a format that makes it easier to manage many social network cases as a single data set usable in standard network and statistical software.
+Server allows you to back up your case files while in the field. By uploading files directly to Server you are able to securely transmit your data to your lab device. In the event you do not have a network connection when you conclude an interview, you can save a copy of your data on the field device you are using until a network connection becomes available. 
+
+Server is particularly useful when you have multiple devices in the field that all need to transmit interview data to a single location. Each field device can be connected to a single instance of Server, which allows you to view cases as they are uploaded and monitor the progress of your project in real time. 
+
+From this same instance of Server, you are able to export all of your data in a format suitable for standard network and statistical software packages.
 
 | Key Concepts: Encryption for Data Security                           |
 | :----------------------------------------------------------- |
-| Server is a program that is run by the researcher on their own computer. Getting data into Server requires "pairing". This process enables Server and any field device to have a key that encrypts (effectively scrambles and then unscrambles) the data. This is so that no one else can view the files as they transfer from a field device to the Server. Especially for sensitive work, we do not recommend storing network files on third party servers, such as Dropbox or Google Drive, but instead keeping them on computers with full-disk encryption (such as FileVault on Mac or BitLocker on Windows) and only transferring through Server. To note, the development team does not have a means of accessing your data and transferring to Server is an example of a peer-to-peer connection so that only your field devices and your copy of Server should be able to access this data. |
+| Server is an application run by the researcher on their own computer. Getting data from Network Canvas into Server requires "pairing". To pair, Server produces a unique encryption key that must be manually entered into the Network Canvas application running on the field device. Once paired, Network Canvas is able to securely upload to data collected in the field directly to Server. The process must be repeated for any field device to be used in your study. Utilizing Server allows you to avoid using third party servers, such as DropBox or Google Drive, and instead upload your data directly ot a computer with full-disk encryption (such as File Vault on a Mac or BitLocker on Windows). Transferring data to Server is an example of a peer-to-peer connection in which only your field device(s) and your copy of Server have access to the transmitted data. |
 {: .key-concept }
 
 {% include nc-image src="assets/img/server-guide/welcome-server.png" %}
