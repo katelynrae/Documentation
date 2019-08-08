@@ -9,7 +9,9 @@ show_in_nav: false
 
 ## Introducing Network Canvas Server
 
-Server is an optional companion program to Network Canvas and Architect. Server is used to:
+Server is an optional companion program to Network Canvas and Architect. 
+
+Server is used to:
 
 * Ensure the same interview protocol is deployed on multiple devices,
 * Manage the data from multiple devices in a single location,
