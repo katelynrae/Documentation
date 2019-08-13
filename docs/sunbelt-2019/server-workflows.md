@@ -28,7 +28,7 @@ Server is particularly useful when you have multiple devices in the field that a
 
 | Key Concepts: Encryption for Data Security                           |
 | :----------------------------------------------------------- |
-| Server is a program run by the researcher on their own computer. Getting data from Network Canvas into Server requires "pairing". To pair, Server produces a unique encryption key that must be manually entered into the Network Canvas application running on a field device. Once paired, Network Canvas is able to securely transmit data collected in the field directly to Server. Utilizing Server allows you to avoid using third party servers, such as Dropbox or Google Drive, and instead transfer your data directly to a computer with full-disk encryption (such as FileVault on Mac or BitLocker on Windows). Transferring data to Server is an example of peer-to-peer connection whereby only your field devices and your copy of Server are able to access the your data. |
+| Server is a program run by the researcher on their own computer. Getting data from Network Canvas into Server requires "pairing". To pair, Server produces a unique encryption key that must be manually entered into the Network Canvas application running on a field device. Once paired, Network Canvas is able to securely transmit data collected in the field directly to Server. Utilizing Server allows you to avoid using third party servers, such as Dropbox or Google Drive, and instead transfer your data directly to a computer with full-disk encryption (such as FileVault on Mac or BitLocker on Windows). Transferring data to Server in this way is an example of peer-to-peer connection whereby only your field device and your copy of Server are able to access your data. |
 {: .key-concept }
 
 {% include nc-image src="assets/img/server-guide/welcome-server.png" %}
@@ -46,64 +46,63 @@ Every time you export interview data to Server, these data will immediately upda
 
 | Key Concept: The overview dashboard                       |
 | :----------------------------------------------------------- |
-| The overview panel will show you important details about your study. It will update in real time in response to interview data that is being uploaded. The panel will show details like the name of the protocol, the number of interviews that have been completed and some summary statistics from the research study such as the number of alters named per interview. These panels are meant to help you consider the progress of your social network studies as well as help you see whether there appears to be anything suspect in the data at this stage, such as an interviewee who nominates far more or fewer alters than the others. The 'cards' that display such information can be reordered by dragging them and you can toggle many of these on and off in the settings panel. |
+| The overview dashboard displays key details about your study and updates in real time as new interview data are uploaded. The dashboard will show details like the name of the protocol, the number of interviews completed and summary statistics from your study, such as the number of alters named per interview. This dashboard allows you to monitor the progress of your social network studies as well as help you identify potential issues in the data, such as an interviewee who nominates far more or fewer alters than the others. The 'cards' that display such information on the dashboard can be reordered by dragging, and toggled on and off in the settings panel. |
 {: .key-concept }
 
 {% include nc-image src="assets/img/server-guide/overview-server.png" %}
 
-Once you have a protocol imported and you can view the overview panel, you can then pair your Server with a field device. Now a field device is any device that is collecting data using Network Canvas. It could be a tablet or the very same computer running Server. Once a field device is paired with Server you can download the protocol to a field device as well as securely upload data back to the Server (as long as there are no issues with internet connectivity).
+Once your interview protocol is imported, the next step is to securely pair Server with your field device(s). Pairing Server with your field device(s) establishes a secure connection that allows you to 1) deploy your protocol to the Network Canvas application running on the field device(s), and 2) securely transmit data collected back to the Server for monitoring and export. 
 
-## Pairing a Network Canvas field device with Server
+Note: a 'field device' is any device that collects data using Network Canvas. It could be a tablet or the very same computer running Server.
 
-To use Server with a field device, you will first have to pair the device with Server. Pairing requires exchanging keys between Server and the field device. Once paired you can download a protocol from Server to Network Canvas and upload data from an interview in Network Canvas back to Server.
+## Pairing a field device running Network Canvas with Server
+
+To use Server with a field device, you will first have to pair the device with Server. Pairing requires exchanging encryption keys between Server and the field device. Once paired, you can download a protocol from Server to Network Canvas and upload data collected in Network Canvas back to Server.
 
 To begin, open Network Canvas on your field device and select the 'add new protocol' button in the lower right-hand corner. This will bring up the protocol import screen. There are three ways to import a protocol: through the web, through a file, and through Server. Server will be the default option. If your field device is on the same local network as Server, then it should pop-up through automatic discovery.
 
 {% include nc-image src="assets/img/server-guide/import-nc.png" %}
 
-| Key Concept: Automatic discovery                           |
+| Key Concept: Automatic discovery & manuel pairing        |
 | :----------------------------------------------------------- |
-| Automatic discovery is a service provided on Windows and Mac computers. It only works on local networks and serves as a convenient way to link Server and a field device. When we say local network, we mean the same connection to the Internet, such as the same WiFi name or the same ethernet router.<br/><br/>Sometimes local discovery does not work. On Linux, for example, there is no automatic discovery. Similarly, if your computer is on a highly secured network, IT might have prevented or disabled auto-discover. In this case you can manually discover Server by entering the required details in Network Canvas. For this you will need the Server IP address (and Pairing Port number, which defaults to 51001) to enter the connection manually. These are always displayed on the top of the Server application.<br/><br/>If you cannot reach the Server using either automatic discovery or manually entering the IP address, restart Server. Restarting will not drop data and there is no need to save anything. If Server still cannot be discovered contact your network administrator or refer to the details of the error message for further troubleshooting tips.<br><br>Some details that might help your network administrator: Server uses the Bonjour protocol and requires multicast DNS packets to be able to pass through the network. |
+| Automatic discovery is a feature that allows Network Canvas to find Server automatically so long as both devices in question are on the same network connection (i.e. the same WiFi or wired Ethernet connection). This feature is available on both Windows and Mac computers, but not linux.<br/><br/>If automatic discovery fails or is unavailable (which can occur if you are on a highly secured network), you can manually facilitate the pairing process between Server and the field device running Network Canvas. To manually pair, select the "enter manual connection details" button on the bottom right corner of the Import a Protocol window. You will be prompted to enter the Server IP address and Pairing Port number, both of which can be found on the top panel of Server. Once these details are provided, the field device will search for Server to pair.<br/><br/>Problem solving: If you cannot reach Server using automatic discovery or the manual pairing steps, try the following: 1) make sure Server is open, 2) restart Server and Network Canvas on their respective devices (note: restarting will not drop data), 3) contact your network administrator or refer to the details of the error message for further troubleshooting tips.<br><br>Some details that might help your network administrator: Server uses the Bonjour protocol and requires multicast DNS packets to be able to pass through the network. |
 {: .key-concept } 
 
-Once your field device has found Server, it will show up as a clickable icon. When you click on it, this will start the pairing procedure. The field device will show a spinning logo. Meanwhile Server will pop up with a request to pair. Click the 'pair with device' button and this will pop up the 16-character key that is used to secure the connection. Enter this key exactly as is on the field device and select 'ok'. Doing so will bring up the protocol(s) on the Server, which can now be downloaded to the field device. 
+Once your field device has found Server, it will show up as a clickable icon. When you click on the icon, the pairing process will begin indicated by a spinning logo on the field device. Meanwhile a window in Server will pop up with a request to pair. Click the 'pair with device' button and Server will produce a 16-character encryption key. Enter this encryption key exactly as is on the field device and select 'ok'. Doing so will bring up the protocol(s) on Server, which can now be downloaded to the field device. 
 
-Here is how the key dialog looks from within Server: 
+Here is how the encryption key dialog appears in Server: 
 
 {% include nc-image src="assets/img/server-guide/key-server.png" %}
 
-Here is how it looks from a Network Canvas device:
+Here is the window that appears in Network Canvas where you will enter the encryption key:
 
 {% include nc-image src="assets/img/server-guide/key-nc.png" %}
 
-Once entered, if the code is correct, the device will then receive a list of the protocols that are available to be imported from Server. The list looks similar to the screenshot below:
+Once entered, the field device will then receive a list of the protocols that are available to be imported from Server. The list looks similar to the screenshot below:
 
 {% include nc-image src="assets/img/server-guide/protocol-list-nc.png" %}
 
-Once you have imported a protocol, you can close the dialog and use the newly imported protocol to collect interview data. At the end of the interview, the final screen of the survey will have an "upload" button. Clicking that button will upload this particular case to the Server. Network Canvas will give feedback indicating whether the upload was successful. To be absolutely sure, you can check on Server since the overview panel will update the Case IDs in real time. 
+Once you have imported a protocol, you can close the dialog and use the newly imported protocol to collect interview data. At the end of the interview, the final screen of the survey will have an "upload" button. Clicking that button will upload this particular case to Server. Network Canvas will indicate whether the upload was successful. You can also cross check the data was successfully uploaded to Server by viewing the overview dashboard for the protocol you are using, which will show the case IDs in real time. 
 
-By default, Network Canvas will delete a case when you select finish. However, you can untoggle this in case you cannot upload to Server right away. When you untoggle the "delete case" button the file will remain stored on the field device until you clear it out. You can find these cases from the main Network Canvas screen under the button "Manage Interview Sessions". Clicking on the cases in the "Manage Interview Sessions" panel will present you the option to upload the cases to Server.  
+For security, Network Canvas will delete a case when you select finish by default. However, you can untoggle this in the event you cannot upload to Server right away. When you untoggle the "delete case" button the file will remain stored on the field device until you delete it. You can find these cases from the main Network Canvas screen under the button "Manage Interview Sessions". Clicking on the cases in the "Manage Interview Sessions" panel will present you the option to upload the cases to Server.  
 
 ## Some guidance on pairing 
 
-- A field device can only pair with one Server, but a Server can have multiple protocols and multiple field devices. If you want Network Canvas on a field device to pair with a new Server, it will remove the connection to the old server. It will  _not_ any protocols that still exist on the device, nor will it remove any cases that have not been uploaded. 
+- A field device can only pair with one Server at any given time, but a Server can deploy multiple protocols and be paired with multiple field devices simultaneously. If you want to pair with a new instance of Server, the connection to the formerly paired Server will be removed. Protocols that exist on the device will _not_ removed, nor will any cases that have not been uploaded. 
 
-- You can see what devices are paired in Server by clicking on the 'devices' button (in the upper right corner, it looks like two screens with a count badge). From here you can check to see what devices are paired and remove any devices which should not be paired. To note, having a list of old devices will not affect performance and cleaning out old paired devices is not necessary.
+- You can see what devices are paired with Server by clicking on the 'devices' button (in the upper right corner). From there, you can check to see what devices are paired and remove any devices which should not be paired. Note: cleaning out old paired devices is not necessary nor will maintaing a list of old devices on Server affect performance.
 
-- If a field device is not paired with a Server before the interview, you can pair with it at a later time. This can be done either when you are at the finish interview dialog or later from the main Network Canvas screen under "Manage Interview Sessions". When you click 'upload' if Network Canvas is not paired with a Server you can do the pairing at this time. Please note that the protocol must already be on the Server even if the device is not currently paired. You cannot "push" a protocol upstream to Server, only link to a protocol that already exists and upload a new interview case.
-
+- If a field device is not paired with a Server before the interview, you can pair with it at a later time. This can be done either when you arrive at the final 'Finish Interview' screen in your protocol by clicking 'upload', which will prompt the pairing process, or later from the main Network Canvas screen under "Manage Interview Sessions". Please note that the protocol must have already been uploaded to Server even if the device is not currently paired. You cannot "push" a protocol upstream to Server, only download a protocol that already exists and upload a new interview case.
 
 - Server will not enforce unique Case IDs. Instead, there is an internally generated UID which will be unique for all cases. Distinguishing cases based on Case ID is the interviewer's responsibility. 
 
 ## Managing and exporting data in Server 
 
-Server has an overview panel to check on data quality and project progress. It will track the total number of nodes (across all node types) as well as some average node statistics and the date the interview was uploaded. It will also give a list of all the cases that have been uploaded.  You can use this list to cross check the uploaded cases from your devices. 
+Server's overview dashboards allow you to monitor data quality and project progress for each of your studies. Each overview dashboard tracks the total number of nodes (across all node types) as well as some average node statistics and the date the interview was uploaded. It will also give a list of all the cases that have been uploaded.  You can use this list to cross check the uploaded cases from your devices. 
 
 {% include nc-image src="assets/img/server-guide/export-options-server.png" %}
 
-All of the cases can be exported from Server by clicking the "Export Data" button. This will bring up the export menu. From here you have a number of choices, but the most important are: 
-- **File Type**: CSV or GraphML, 
-- **Interview Networks**: Consolidated file or separate files. 
+Every completed interview can be exported from Server by clicking the "Export Data" button. This will bring up the export menu, which allows you to select your preferred export **file type** (CSV or GraphML) and **interview networks** format (separate network for each interview or a union of interview networks as a consolidated file).
 
 ### File Type
 A CSV file is a comma separated file of values. This is readable as a table (or series of tables) in Excel, LibreOffice, Keynote, and other tabular programs. The CSV version also complies with the ```egor``` package standard. This is a specification for egocentric data in R. A GraphML file is a file that is compliant with many social network analysis programs including UCInet, Gephi, NodeXL, Pajek, Visone, ORA and others. While the CSV files will have separate files for edges, egos and alters, the GraphML file contains data on ego, alters, and edges in the same file. This means it cannot be tabular (i.e. used in Excel) but it can still be effectively read by using the network analysis packages above. 
