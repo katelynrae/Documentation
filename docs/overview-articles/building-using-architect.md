@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Building a protocol using Architect
-parent: Sunbelt 2019 Workshop Materials
 nav_order: 2
 last_modified_at: 2019-06-27
 ---

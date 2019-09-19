@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Server and Network Canvas Workflows
-parent: Sunbelt 2019 Workshop Materials
 nav_order: 3
 last_modified_at: 2019-07-24
-show_in_nav: false
 ---
 
 ## Introducing Network Canvas Server

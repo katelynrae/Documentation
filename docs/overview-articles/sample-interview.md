@@ -1,7 +1,6 @@
 ---
 layout: default
 title: A Sample Network Canvas Interview
-parent: Sunbelt 2019 Workshop Materials
 nav_order: 1
 last_modified_at: 2019-06-27
 ---
