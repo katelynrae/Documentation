@@ -24,7 +24,7 @@ Network Canvas is funded by the National Institutes of Health (R01 DA042711).
 
 * Attendees should have a basic understanding of social network data capture.
 * Participants should download and install the public beta versions of Network Canvas, Server, and Architect from the [project website](https://networkcanvas.com) prior to the workshop.
-* Doing this will require a laptop running Windows 10, macOS 10.13+, or Linux. Participants may optionally bring additional devices (tablet computers running Android 7.1+ or iOS 10+, or select models of Chromebook) for further testing. We will have a limited number of devices with us that you can use within the workshop to evaluate the tradeoffs of different platforms.
+* Doing this will require a laptop running Windows 10, macOS 10.13+, or Linux. Participants may optionally bring additional devices (tablet computers running Android 7.1+ or iOS 10+, or select models of Chromebook) for further testing. We will have a limited number of devices with us that you can use within the workshop to evaluate the trade-offs of different platforms.
 
 ## Duration
 
