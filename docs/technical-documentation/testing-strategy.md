@@ -3,6 +3,7 @@ layout: default
 title: Project Testing Strategy
 nav_order: 6
 last_modified_at: 2019-10-02
+nav_exclude: true
 ---
 
 ## Test Strategy
