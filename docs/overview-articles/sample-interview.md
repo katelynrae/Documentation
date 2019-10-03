@@ -9,11 +9,11 @@ last_modified_at: 2019-06-27
 
 This article will introduce you to Network Canvas by walking through a sample interview. The interview we have created for this example is a simplified illustration of a "public health" study, and we hope it will help orient you to the different types of interviews which can be constructed with Network Canvas.
 
-You can download the protocol file for this demontration yourself and import it into Network Canvas to follow along. You can also open and modify it within Architect to learn about how to make changes. If you want to learn how to create this protocol from scratch, read the [building a protocol using architect](./building-using-architect.md) article.
+You can download the protocol file for this demonstration yourself and import it into Network Canvas to follow along. You can also open and modify it within Architect to learn about how to make changes. If you want to learn how to create this protocol from scratch, read the [building a protocol using architect](./building-using-architect.md) article.
 
 To download this protocol, click [here](../../../protocols/Public Health Protocol.netcanvas). To follow along on your own device, you will need to import the protocol using either a downloaded copy of this file, or by entering the URL `https://documentation.networkcanvas.com/protocols/Public%20Health%20Protocol.netcanvas` into Network Canvas. Detailed information about importing a protocol into Network Canvas is provided in the [Server and Network Canvas Workflows](./server-workflows.md) article.
 
-From here onwards, we will assume that the protocol is already installed within Network Canvas.
+From here onward, we will assume that the protocol is already installed within Network Canvas.
 
 ## The Start Screen
 
@@ -21,13 +21,13 @@ First, we open the Network Canvas application.
 
 {% include nc-image src="/assets/img/introduction-images/start-screen.png" caption="The Network Canvas Start Screen" %}{: .macos-screenshot }
 
-We begin in an area we call the “start screen”. It shows the interview protocols that you currently have installed on your device in the form of grey cards. If this is the first time you have opened Network Canvas, you will instead see a "getting started" message, which gives instructions on how to import your first protocol.
+We begin in an area we call the “start screen”. It shows the interview protocols that you currently have installed on your device in the form of gray cards. If this is the first time you have opened Network Canvas, you will instead see a "getting started" message, which gives instructions on how to import your first protocol.
 
 You can switch between these protocol cards by swiping left or right, or by using the arrows on the edges of the screen. With the Public Health Protocol card visible, we click the card to trigger a new interview session by entering a Case ID.
 
 {% include nc-image src="/assets/img/introduction-images/case-id.png" caption="The new Case ID modal" %}{: .macos-screenshot }
 
-The Case ID is a label that you assign to an interview session to help you recognise it later. The Case ID is shown in the "Manage Interview Sessions" screen, is visible in Server in the overview panel, and appears in the filename of exported data.
+The Case ID is a label that you assign to an interview session to help you recognize it later. The Case ID is shown in the "Manage Interview Sessions" screen, is visible in Server in the overview panel, and appears in the filename of exported data.
 
 For our interview we will use today's date as the Case ID.
 
@@ -89,7 +89,7 @@ Clicking next takes us to a second name generator stage, which demonstrates a di
 
 Finally we reach the end of this hypothetical interview, and we are presented with the “Finish Interview” screen.
 
-Data management operations are covered in the [Server and Network Canvas Workflows](./server-workflows.md) article, but for now note that it is possible to remotely transfer the interview data to an instance of Server, or to export a graphml file from this screen.
+Data management operations are covered in the [Server and Network Canvas Workflows](./server-workflows.md) article, but for now note that it is possible to remotely transfer the interview data to an instance of Server, or to export a GraphML file from this screen.
 
 For now click “Finish” to return to the start screen.
 

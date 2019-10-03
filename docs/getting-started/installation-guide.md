@@ -105,7 +105,7 @@ device access may not work correctly, or at all.
 
 Installation for Android devices works the same as with any other Android app.
 It can be found by opening the Play Store app, and searching for "Network Canvas".
-Alternatively, you can visit the Play Store website, and initialise the
+Alternatively, you can visit the Play Store website, and initialize the
 installation on your devices from there:
 
 ### [Visit the Google Play Store listing for Network Canvas](https://play.google.com/store/apps/details?id=org.codaco.networkCanvas)

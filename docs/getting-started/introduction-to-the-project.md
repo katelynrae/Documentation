@@ -7,7 +7,7 @@ last_modified_at: 2019-06-14
 
 ## Overview
 
-The Network Canvas Software Suite is different from many existing survey tools, most of which have been optimized for capturing individual rather than network data. Our tool captures data about both the individual and their social network through intuitive and engaging touch-optimized interfaces. By visually representing people, places, and concepts as nodes alongside relationships between the nodes and attributes of nodes and realtionships, Network Canvas can make seemingly complex data more manageable and intuitive in an interview setting. 
+The Network Canvas Software Suite is different from many existing survey tools, most of which have been optimized for capturing individual rather than network data. Our tool captures data about both the individual and their social network through intuitive and engaging touch-optimized interfaces. By visually representing people, places, and concepts as nodes alongside relationships between the nodes and attributes of nodes and relationships, Network Canvas can make seemingly complex data more manageable and intuitive in an interview setting. 
 
 To provide an overview of the project, including background information about our team, our aims and objectives, and the functionality of the software, we have created the following promotional video.
 

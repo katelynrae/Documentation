@@ -32,7 +32,7 @@ And this takes us to the main protocol overview screen for our new protocol.
 
 | Key Concept: The protocol editing screen                          |
 | :----------------------------------------------------------- |
-| The grey panel is called the "overview panel", and it shows the protocol name and description, and has two buttons for managing assets and managing the codebook.<br/><br/>In the top left, you can see the Architect logo. Clicking this button will take you out of the current protocol, and back to the start screen.<br/><br/>Extending out of the bottom of the overview panel is a red line which represents the "timeline". This is a key metaphor that runs between Architect and Network Canvas. The timeline represents the sequence of stages that the participant passes through during the interview. As we add stages to our interview, they will appear on this line, from top to bottom. |
+| The gray panel is called the "overview panel", and it shows the protocol name and description, and has two buttons for managing assets and managing the codebook.<br/><br/>In the top left, you can see the Architect logo. Clicking this button will take you out of the current protocol, and back to the start screen.<br/><br/>Extending out of the bottom of the overview panel is a red line which represents the "timeline". This is a key metaphor that runs between Architect and Network Canvas. The timeline represents the sequence of stages that the participant passes through during the interview. As we add stages to our interview, they will appear on this line, from top to bottom. |
 {: .key-concept }
 
 The protocol description is optional. Whatever you enter will show up in the Network Canvas App on the start screen, and when browsing the list of available protocols from Server.
@@ -51,7 +51,7 @@ Each stage is designed for a specific task within a network interview. For now, 
 
 {% include nc-image src="assets/img/architect-guide/4.png" %}
 
-This is the Ego Form’s edit screen, and it allows us to customise our new stage.
+This is the Ego Form’s edit screen, and it allows us to customize our new stage.
 
 ### Setting the stage name
 
@@ -175,7 +175,7 @@ Next we must provide some questions to prompt the participant into adding alters
 
 | Key Concept: Prompts                          |
 | :----------------------------------------------------------- |
-| Most stages use the concept of "prompts" to allow you to define questions to put to the participant during the interview. You are free to explain the task to the participant in ways that are meaningful to your study.<br/><br/>You can have multiple prompts on a single stage, or a single prompt per stage - the choice is yours. You may wish to think about grouping prompts by theme, and then having one stage for each theme. For example, "Name Generator (family)" could contain prompts about family alters, and "Name Generator (colleagues)" could contain prompts about professional alters.<br/><br/>Prompts can contain formatting such as bold or italicised text to create emphasis and rhythm. To create this formatting, use markdown syntax. |
+| Most stages use the concept of "prompts" to allow you to define questions to put to the participant during the interview. You are free to explain the task to the participant in ways that are meaningful to your study.<br/><br/>You can have multiple prompts on a single stage, or a single prompt per stage - the choice is yours. You may wish to think about grouping prompts by theme, and then having one stage for each theme. For example, "Name Generator (family)" could contain prompts about family alters, and "Name Generator (colleagues)" could contain prompts about professional alters.<br/><br/>Prompts can contain formatting such as bold or italicized text to create emphasis and rhythm. To create this formatting, use markdown syntax. |
 {: .key-concept }
 
 Click the “create new” button in the prompt section, to open the new prompt edit form.
@@ -278,7 +278,7 @@ As with previous interfaces, begin with naming the stage (“AlterSupport”), a
 
 Most of the configuration for this interface happens within the prompt. Create a new prompt, and enter the text “How much support does each person give you?”.
 
-Next, we need to create an ordinal variable. This is fundamentally the same process as we carried out when we configuring the race variable in our ego form (revisit the “Creating an Ordinal Variable” section if you need to refamiliarize yourself with this).
+Next, we need to create an ordinal variable. This is fundamentally the same process as we carried out when we configuring the race variable in our ego form (revisit the “Creating an Ordinal Variable” section if you need to re-familiarize yourself with this).
 
 Create a variable named “AlterSupport” with the following possible options:
 

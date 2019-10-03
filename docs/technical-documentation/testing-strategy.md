@@ -13,14 +13,11 @@ Currently projects use a mixture of enzyme snapshot tests and unit/integration t
 
 A protocol validation schema allows testing of protocol files in the live apps, but itself is relevant to testing in that it can be used to ensure the apps can produce/consume valid interviews.
 
-Appium was trialed for similar integration testing for mobile, but the approach proved slow, brittle and prone to false positives. 
-
+Appium was trialed for similar integration testing for mobile, but the approach proved slow, brittle and prone to false positives.
 
 ## Review
 
-Large software outfits such Google promote a unit testing focussed approach, with only a minor role played by E2E (end to end) testing. Reasons given include:
-
-
+Large software outfits such Google promote a unit testing focused approach, with only a minor role played by E2E (end to end) testing. Reasons given include:
 
 *   Overarching issues, such as a ‘login’, can cause the entire suite to fail, when this isn’t fixed immediately, many smaller bugs can be hidden,
 *   E2E testing is slow, in the case of larger software suits, developers may have to wait until the next day to see results.
@@ -29,7 +26,7 @@ Large software outfits such Google promote a unit testing focussed approach, wit
 ### Levels of testing
 
 **End to end**
-Test the finished product (e.g. simulating running the application as a user)
+Test the finished product (e.g., simulating running the application as a user)
 
 **Integration:**
 Test composite components and/or the interaction of components, a middle ground between the two.
@@ -37,7 +34,7 @@ Test composite components and/or the interaction of components, a middle ground 
 **Unit:**
 Test individual functions and classes
 
-Unit testing is favoured because:
+Unit testing is favored because:
 
 *   It can provide immediate feedback
 *   It is specific (can aid finding bugs)
@@ -59,11 +56,11 @@ There are enzyme snapshot tests for the UI, but aren’t providing any value. Wh
 The unit and integration tests are somewhat useful, especially when related to functional oriented code, such as format conversion. Some integration tests can be brittle when functionality is revised, but as the software matures, that will be less of an issue.
 
 
-## Summary of Stragegy
+## Summary of Strategy
 
 *   Test what is important to the user
     *   E2E coverage should start 10,000ft and narrow down as needed
-    *   Test behaviour, not implementation e.g.
+    *   Test behavior, not implementation
         *   Architect: UI changes -> creates a protocol which is valid
 *   Tests should be as simple as possible to run
     *   Automated
@@ -85,7 +82,7 @@ The unit and integration tests are somewhat useful, especially when related to f
     *   Build a list of “core outcomes” (such as the above) that can be implemented immediately. Base this off of the manual checklist.
 *   Write unit tests to document underlying infrastructure. These will be used to find bugs and ensure that utility functions work as expected. Core functionality such as saving and loading files is a good example requiring unit tests.
     *   When `saveProtocol()` is called, the protocol should write to the disk (or call APIs that do).
-    *   When a network is converted to xml, the generated data is as expected.
+    *   When a network is converted to XML, the generated data is as expected.
 *   Write unit and/or end to end tests to validate bug fixes. If you find yourself writing lots of log statements, this might be a good place to add a test.
 
 
@@ -96,7 +93,7 @@ The unit and integration tests are somewhat useful, especially when related to f
         *   If you are testing a composite component and need to specify component names. Instead use 
         *   If you need access to class variable names or functions to run the tests
 *   When underlying code changes, making tests outdated ensure old tests are replaced to maintain code coverage.
-*   Create (modular) factory generators for canonical mocks. Suggest using [rosie](https://github.com/rosiejs/rosie). Shared mock state should be used wherever possible, and established where it doesn't currently exist.
+*   Create (modular) factory generators for canonical mocks. Suggest using [Rosie](https://github.com/rosiejs/rosie). Shared mock state should be used wherever possible, and established where it doesn't currently exist.
 *   The existing integration tests are still very relevant, but it would be good to be able to run them as part of each app. The integration-tests repo could them be adapted to run these suites together if desired. For example: Architect can be tested to produce a validated protocol, and network canvas can be tested to run a validated protocol as a separate step
 
 
@@ -119,7 +116,7 @@ Tests are written on top of Jest, which is part of the React project. Enzyme can
 
 ### New features
 
-Whilst ideally this should cover the same steps as a bug fix, it may be that some experimentation is required until a fully testable implementation is made. In this case, it may still be possible to loosely write high level test stubs which can then be populated as the implementation materialises.
+Whilst ideally this should cover the same steps as a bug fix, it may be that some experimentation is required until a fully testable implementation is made. In this case, it may still be possible to loosely write high level test stubs which can then be populated as the implementation materializes.
 
 
 
@@ -129,14 +126,13 @@ Whilst ideally this should cover the same steps as a bug fix, it may be that som
 
 ### Backfilling missing tests when developing new features/fixes
 
-If you are implementing a bug fix or feature for a part of the app with no coverage, follow the principle of “leave it better than you found it”, e.g. if you add functionality to the sociogram interface, create a test harness for the whole interface, and stub (and/or implement) any tests that need to be implemented yet for that interface.
-
+If you are implementing a bug fix or feature for a part of the app with no coverage, follow the principle of “leave it better than you found it”, e.g., if you add functionality to the sociogram interface, create a test harness for the whole interface, and stub (and/or implement) any tests that need to be implemented yet for that interface.
 
 ## Metrics
 
 Jest provides a code coverage feature which covers execution of branches, functions, lines and statements. Whilst useful for directing missing test coverage, it doesn’t exactly match what should be considered ‘good’ coverage. The aim should be for this report to get better over time, and if that isn’t the case review why figures are declining.
 
-For spectron tests, aim for every part of UI to be tested (e.g. every clickable, draggable thing). Coverage is difficult to measure automatically so will need to be part of code review.
+For Spectron tests, aim for every part of UI to be tested (e.g., every clickable, draggable thing). Coverage is difficult to measure automatically so will need to be part of code review.
 
 
 ## Feedback
