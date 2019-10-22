@@ -43,7 +43,7 @@ See the chart below for compatibility.
 
   <p><sup id="linux-compat">3</sup> Entire suite tested on Ubuntu and Manjaro Linux. We
   recommend at least 2GB of RAM. The applications will require approximately
-  100MB of space for a complete install.  Additional configuration steps may be
+  100MB of space for a complete install. Additional configuration steps may be
   required to enable automatic server discovery. Please contact us for details.</p>
 
   <p><sup id="ios-compat">4</sup> Network Canvas is designed for larger tablet

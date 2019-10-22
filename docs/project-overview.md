@@ -63,7 +63,7 @@ Key in sustaining this Software Suite is input and collaboration with the commun
 
 We established a not for profit entity (The Complex Data Collective - or CODACO) which owns all IP and copyright associated with the project. This entity then grants a license to any user of the software under something called the General Public License.
 
-You may have heard of it (it is very popular in open source software) but it provides anyone who wants to use our software certain guaranteed freedoms.
+You may have heard of it (it is popular in open source software) but it provides anyone who wants to use our software certain guaranteed freedoms.
 
 * Freedom to use the software commercially, without restriction
 * Freedom to modify the software however they see fit
