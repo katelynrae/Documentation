@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Tutorials
 title: Server and Network Canvas Workflows
 nav_order: 3
 last_modified_at: 2019-07-24

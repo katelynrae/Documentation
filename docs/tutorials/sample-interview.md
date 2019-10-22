@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Tutorials
 title: A Sample Network Canvas Interview
 nav_order: 1
 last_modified_at: 2019-06-27

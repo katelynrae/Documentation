@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
+title: Research Design
 has_children: true
-nav_exclude: true
+nav_order: 7
 ---

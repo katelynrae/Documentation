@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to the Project
+title: Project Overview
 nav_order: 1
 last_modified_at: 2019-06-14
 ---
