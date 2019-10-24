@@ -13,7 +13,7 @@ Network Canvas calculates the label to be used when rendering a node using the t
   2. Look for a property on the node with a key of ‘name’ (regardless of case), and try to retrieve this value.
   3. Show the text "No 'name' variable!"
 
-If you are seeing unexpected results, such as "No 'name' variable!" messages, ensure you have constructed your protocol or your data in a way that satisfies a rule with a higher precidence. For example, ensure you have correctly created a 'name' variable for the node type, and that this variable is assigned a value within your interview.
+If you are seeing unexpected results, such as "No 'name' variable!" messages, ensure you have constructed your protocol or your data in a way that satisfies a rule with a higher precedence. For example, ensure you have correctly created a 'name' variable for the node type, and that this variable is assigned a value within your interview.
 
 For advanced functionality, such as calculating a node label dynamically, see "custom node labelling".
 
