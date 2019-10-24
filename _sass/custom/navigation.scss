@@ -49,19 +49,28 @@
   padding: 0;
 }
 
-.navigation-list-item a {
-  color: $text-color-main;
-  font-size: 14px;
-  line-height: 1.5;
+.navigation-list-item {
 
-  @include mq(tablet, 'min-width') {
-    font-size: 1rem;
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 
-  @include mq(large, 'min-width') {
-    font-size: 1.2rem;
+  a {
+    color: $text-color-main;
+    font-size: 14px;
+    line-height: 1.5;
+
+    @include mq(tablet, 'min-width') {
+      font-size: 1rem;
+    }
+
+    @include mq(large, 'min-width') {
+      font-size: 1.2rem;
+    }
   }
 }
+
 .navigation-list-child-list .navigation-list-link.active {
   color: $color-primary;
 }
