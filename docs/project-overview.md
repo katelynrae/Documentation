@@ -21,7 +21,7 @@ The Suite consists of three applications:
 
 These three applications work together to provide a seamless end-to-end workflow up to the point of analysis. While study participants only interact with the Network Canvas Application, researchers will utilize all three - first Architect in order to build a protocol, then Server to deploy the protocol, and then the Network Canvas App to administer the surveys to study participants.
 
-![image](/assets/img/introduction-images/network-canvas-figure.png)
+![image](/assets/img/introduction-images/workflow@2x.png)
 
 ## Design Principles
 
