@@ -59,10 +59,15 @@
                     <div class="last-updated">Last Updated: {{ page.last_modified_at | date: '%B %d, %Y' }}</div>
                     {% endif %}
                 </div>
-                {% if page.has_children == true and page.has_toc != false %}
+                {% if page.has_toc != false %}
+                <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
+                {% include toc.html html=content sanitize=true ordered=true class="inline_toc" %}
+                {% endif %}
+                {{content}}
+                {% if page.has_children == true %}
                 <h2 class="no_toc text-delta" id="table-of-contents">Pages in this Section</h2>
                 {% assign children_list = site.pages | sort:"nav_order" %}
-                <ol type="1" class="toc">
+                <ol type="1" class="inline_toc">
                     {% for child in children_list %}
                     {% if child.parent == page.title and child.title != page.title %}
                     <li>
@@ -71,17 +76,9 @@
                     {% endif %}
                     {% endfor %}
                 </ol>
-                {% else %}
-                {% if page.has_toc != false %}
-                <h2 class="no_toc text-delta" id="table-of-contents">Table of contents</h2>
-                {% include toc.html html=content sanitize=true ordered=true %}
                 {% endif %}
-                {% endif %}
-                {{content}}
             </div>
-
         </div>
-        {% include footer.html %}
     </div>
 </div>
 

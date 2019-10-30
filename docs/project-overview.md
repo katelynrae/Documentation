@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to the Project
+title: Project Overview
 nav_order: 1
 last_modified_at: 2019-06-14
 ---
@@ -21,7 +21,7 @@ The Suite consists of three applications:
 
 These three applications work together to provide a seamless end-to-end workflow up to the point of analysis. While study participants only interact with the Network Canvas Application, researchers will utilize all three - first Architect in order to build a protocol, then Server to deploy the protocol, and then the Network Canvas App to administer the surveys to study participants.
 
-![image](/assets/img/introduction-images/network-canvas-figure.png)
+![image](/assets/img/introduction-images/workflow@2x.png)
 
 ## Design Principles
 
@@ -63,7 +63,7 @@ Key in sustaining this Software Suite is input and collaboration with the commun
 
 We established a not for profit entity (The Complex Data Collective - or CODACO) which owns all IP and copyright associated with the project. This entity then grants a license to any user of the software under something called the General Public License.
 
-You may have heard of it (it is very popular in open source software) but it provides anyone who wants to use our software certain guaranteed freedoms.
+You may have heard of it (it is popular in open source software) but it provides anyone who wants to use our software certain guaranteed freedoms.
 
 * Freedom to use the software commercially, without restriction
 * Freedom to modify the software however they see fit

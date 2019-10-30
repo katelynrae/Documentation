@@ -1,5 +1,6 @@
 ---
 layout: default
+parent: Tutorials
 title: Building a protocol using Architect
 nav_order: 2
 last_modified_at: 2019-06-27

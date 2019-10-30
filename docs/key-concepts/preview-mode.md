@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting Started
-has_children: true
+title: Preview Mode
+parent: Key Concepts
 nav_exclude: true
 ---

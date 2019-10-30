@@ -1,7 +1,16 @@
+// Page TOC
+.page-content {
+  .inline_toc {
+    margin-left: 0;
+  }
+}
+
+
 // Section TOCs
 .page-content ol {
   list-style: none;
   counter-reset: my-awesome-counter;
+  margin-left: 2rem;
 }
 .page-content > ol > li {
   counter-increment: my-awesome-counter;
