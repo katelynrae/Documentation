@@ -25,11 +25,12 @@ A BibTeX entry for LaTex users is:
 ```
 
 URLs for citing Network Canvas repositories are:
-[https://github.com/codaco/Network-Canvas](https://github.com/codaco/Network-Canvas)
-[https://github.com/codaco/Architect](https://github.com/codaco/Architect)
-[https://github.com/codaco/Server](https://github.com/codaco/Server)
+- [https://github.com/codaco/Network-Canvas](https://github.com/codaco/Network-Canvas)
+- [https://github.com/codaco/Architect](https://github.com/codaco/Architect)
+- [https://github.com/codaco/Server](https://github.com/codaco/Server)
+
 Current downloads for the Network Canvas Software Suite are available at:
-[https://networkcanvas.com/download.html](https://networkcanvas.com/download.html)
+- [https://networkcanvas.com/download.html](https://networkcanvas.com/download.html)
 
 ### Citing the evaluation
 
@@ -58,5 +59,6 @@ A BibTeX entry for LaTex users is:
 ## Other Project Publications
 
 >Birkett, M., Melville, J., Janulis, P., Phillips II, G., Contractor, N., & Hogan, B. (2020). Network Canvas: Key decisions in the design of an interviewer assisted network data collection software suite. _Social Networks_. Working Paper.
+
 >Hogan, B., Janulis, P., Phillips II, G., Melville, J., Mustanski, B., Contractor, N., & Birkett, M. (2019). Assessing the stability of ego-centered networks over time using the digital participant-aided sociogram tool Network Canvas. _Network Science_. In press.
 Collapse
