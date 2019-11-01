@@ -32,7 +32,7 @@ The Case ID is a label that you assign to an interview session to help you recog
 
 For our interview we will use today's date as the Case ID.
 
-{% include tip-caution content="There is no requirement that a Case ID be unique, since this would not be possible to ensure across multiple devices. Instead, Network Canvas and Server use a separate unique ID to ensure that data is not lost if a Case ID is duplicated. Nevertheless, you should strongly consider a consistent system for naming cases that allows you to uniquely identify them." %}
+{% include tip-caution.md content="There is no requirement that a Case ID be unique, since this would not be possible to ensure across multiple devices. Instead, Network Canvas and Server use a separate unique ID to ensure that data is not lost if a Case ID is duplicated. Nevertheless, you should strongly consider a consistent system for naming cases that allows you to uniquely identify them." markdown=true %}
 
 ## The Ego Form
 
