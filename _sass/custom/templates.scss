@@ -8,6 +8,10 @@
   flex-direction: row;
   align-items: center;
   margin: 2rem 0;
+
+  a {
+    color: $color-neon-coral;
+  }
 }
 
 .tip-box .tip-img-wrapper {
