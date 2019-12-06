@@ -96,7 +96,7 @@ integrate the package with your system.
 
 Visit the [download page](https://networkcanvas.com/download.html), and download the SNAP version of each app you require.
 
-The latest alpha versions of the suite will soon be made available through the Snapcraft
+The latest beta versions of the suite will soon be made available through the Snapcraft
 Store by searching for the names of the apps. For the time being these versions
 may not be fully functional. In particular, functions that require network or
 device access may not work correctly, or at all.
@@ -130,9 +130,7 @@ compatibility) is not supported at present.
 
 ## Notes on installation for iOS
 
-We are managing the Network Canvas Alpha and Beta through Apple's Test Flight
-software. To install Network Canvas on your device, you will first need to
-download and install the Test Flight app from the Apple App Store.
+Network Canvas Beta can be installed directly from the [Apple App Store](https://apps.apple.com/us/app/network-canvas/id1233134698) on any device running iOS. 
 
 Once you have completed this, you can click on the following link to join the
 testing program: [Network Canvas on Apple TestFlight](https://testflight.apple.com/join/xHonPrKO).
